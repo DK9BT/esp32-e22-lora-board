@@ -7,9 +7,9 @@ EBYTE E22-400M33S (3W) https://www.amazon.de/dp/B0BMP99S3D
 
 ESP32 Board Dev Kit C V4 https://www.amazon.de/dp/B08BTS62L7/ / https://www.amazon.de/dp/B07Z83MF5W/
 
-BME/BMP 280
+BME/BMP 280 https://www.amazon.de/dp/B0C4L8BKJP/
 
-GPS
+GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
 
 
