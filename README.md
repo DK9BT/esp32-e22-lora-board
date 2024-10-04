@@ -14,6 +14,9 @@ GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
 # Versions Info
 V 1.x    OE5HWN Versionen
+
 V 2.0.x  Design-Phase
+
 V 2.1.x  Variante einseitig bestückt
+
 V 2.2.x  Variante beidseitig bestückt
