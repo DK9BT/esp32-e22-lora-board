@@ -17,6 +17,6 @@ V 1.x    OE5HWN Versionen
 
 V 2.0.x  Design-Phase
 
-V 2.1.x  Variante einseitig bestückt
+V 2.1.x  Variante einseitig bestückt / Variant equipped on one side
 
-V 2.2.x  Variante beidseitig bestückt
+V 2.2.x  Variante beidseitig bestückt / Variant equipped on both sides
