@@ -1,6 +1,7 @@
 # Quellenverzeichnis
 Symbols, Footprints, 3D-Modelle
 
+https://kicad.github.io/packages3d/  
 https://support.snapmagic.com/en/articles/3758108-how-to-import-a-3d-model-in-kicad
 
 ### SMA
