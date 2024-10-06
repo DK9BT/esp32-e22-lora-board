@@ -1,8 +1,12 @@
 # Quellenverzeichnis
+Symbols, Footprints, 3D-Modelle
 
-**SMA**
+### SMA
 https://kicad.github.io/footprints/Connector_Coaxial  
 https://www.snapeda.com/parts/221789-1/TE%20Connectivity/view-part/  
 https://www.snapeda.com/parts/CON-SMA-EDGE-S/RF%20Solutions/view-part/  
+
+### E22 
+https://www.snapeda.com/parts/E22-400M30S/EBYTE/view-part/
 
 ...
