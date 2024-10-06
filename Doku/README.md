@@ -12,4 +12,7 @@ https://www.snapeda.com/parts/CON-SMA-EDGE-S/RF%20Solutions/view-part/
 ### E22 
 https://www.snapeda.com/parts/E22-400M30S/EBYTE/view-part/
 
+### ESP32
+https://grabcad.com/library/esp32-devkitc-v4-1
+
 ...
