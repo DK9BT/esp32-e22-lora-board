@@ -1,3 +1,0 @@
-# V 2.1.x Variante einseitig bestückt / Variant equipped on one side
-
-...
