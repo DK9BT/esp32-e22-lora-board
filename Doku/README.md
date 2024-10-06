@@ -1,6 +1,8 @@
 # Quellenverzeichnis
 Symbols, Footprints, 3D-Modelle
 
+https://support.snapmagic.com/en/articles/3758108-how-to-import-a-3d-model-in-kicad
+
 ### SMA
 https://kicad.github.io/footprints/Connector_Coaxial  
 https://www.snapeda.com/parts/221789-1/TE%20Connectivity/view-part/  
