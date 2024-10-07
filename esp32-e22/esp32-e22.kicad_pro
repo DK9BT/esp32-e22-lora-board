@@ -495,9 +495,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "esp32-e22.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "esp32-e22.wrl"
     },
     "page_layout_descr_file": ""
   },

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "E22")(type "KiCad")(uri "${KIPRJMOD}/e22_400m33s.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "DM-OLED096-636")(type "KiCad")(uri "${KIPRJMOD}/DM-OLED096-636.kicad_sym")(options "")(descr ""))
 )
