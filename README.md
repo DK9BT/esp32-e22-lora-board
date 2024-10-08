@@ -11,6 +11,10 @@ BME/BMP 280 https://www.amazon.de/dp/B0C4L8BKJP/
 
 GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
+Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524
+
+Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340515
+
 
 ### Versions Info
 V 1.x    OE5HWN Versionen
