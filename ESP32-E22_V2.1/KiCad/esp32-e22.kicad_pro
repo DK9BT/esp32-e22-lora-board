@@ -490,7 +490,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "esp32-e22.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",
