@@ -2,7 +2,7 @@
 
 **SCH** = schematic  
 **PCB** = board  
-**PCB_3D** = 3D of the PCB
+**_3D** = 3D files for 360° viewing
 
 for **3D-PDF**s you can use the **Adobe Acrobar Reader**  
 or **PDF Xchange Editor**  
