@@ -1,19 +1,17 @@
 # esp32-e22-lora-board
 Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU
 
-### Parts List:
+### Main Parts List:
 
 EBYTE E22-400M33S (2W/33dbm) https://www.amazon.de/dp/B0BMP99S3D
 
 ESP32 Board Dev Kit C V4 https://www.amazon.de/dp/B08BTS62L7/ / https://www.amazon.de/dp/B07Z83MF5W/
 
-BME/BMP 280 https://www.amazon.de/dp/B0C4L8BKJP/
+BME/BMP280 3,3V https://www.amazon.de/AZDelivery-GY-BME280-Barometrischer-Temperatur-Luftfeuchtigkeit/dp/B07FS95JXT/
+[ BME/BMP280 5V https://www.amazon.de/dp/B0C4L8BKJP/ ]
 
 GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
-Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524
-
-Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340515
 
 
 ### Versions Info
