@@ -3,6 +3,7 @@ Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU
 
 V 2.1.x  Variante einseitig bestückt / Variant equipped on one side
 
+
 ### additional special components
 
 Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524
@@ -16,7 +17,7 @@ USB-C vertical breakout board
 https://de.aliexpress.com/item/1005007821332638.html
 
 
-**Erläuterung zur Schutzbeschaltung:**
+### Erläuterung zur Schutzbeschaltung
 
 • Die Transient Voltage Suppressor Diode schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA
 • Die 2 Schottky-Dioden entkoppeln die Versorgungseingänge.
@@ -30,7 +31,7 @@ Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch 
 Für genauere Infos siehe die entsprechenden Datenblätter der Bauteile.
 
 
-**Erläuterungen zum Gehäuseeinbau:**
+### Erläuterungen zum Gehäuseeinbau:
 
 Das Gehäuse verfügt über Ø3,2x4 Sacklöcher. Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden.
 Bei anderem Bedarf können die Befestigungsbohrungen auf der PCB aufgebohrt werden.
