@@ -5,5 +5,4 @@
 **_3D** = 3D files for 360° viewing
 
 for **3D-PDF**s you can use the **Adobe Acrobar Reader**  
-or **PDF Xchange Editor**  
-https://www.pdf-xchange.com/product/pdf-xchange-editor
+or **PDF Xchange Editor** https://www.pdf-xchange.com/product/pdf-xchange-editor
