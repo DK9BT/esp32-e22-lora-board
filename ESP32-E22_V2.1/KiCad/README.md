@@ -11,3 +11,8 @@ PCB V 2.0.4
 
 • GND Flood
 • USB-C vertical Breakout board
+
+
+**History**
+
+V 2.0.10 - PCB mech. in mm / Gehäuse vereinfacht 3D-Modell & assembly
