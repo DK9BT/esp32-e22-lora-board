@@ -2,7 +2,7 @@
 
 with KiCad V 8.0.5  
 
-Alpha-Version  
+Beta-Version  
 SCH V 2.0.11  
 PCB V 2.0.6  
 
