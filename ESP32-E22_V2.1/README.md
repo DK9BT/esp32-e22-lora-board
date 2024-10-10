@@ -40,3 +40,8 @@ Bei anderem Bedarf können die Befestigungsbohrungen auf der PCB aufgebohrt werd
 Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben.
 
 Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.
+
+### Erläuterung zur USB-C Buchse:
+
+Es reicht sicher, die mit einem Spiegelband aufzukleben und dann mit Drahtstückchen zu verbinden.  
+Optional können da aber auch USB-C Einbaubuchsen mit Drähten verbunden werden. Infos dazu folgen ...
