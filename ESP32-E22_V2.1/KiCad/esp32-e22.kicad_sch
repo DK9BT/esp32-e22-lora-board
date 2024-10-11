@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP32 - E22 Board")
 		(date "2024-10-11")
-		(rev "V2.0.12")
+		(rev "V2.1.0")
 		(company "DK9BT / OE3WAS")
 	)
 	(lib_symbols
