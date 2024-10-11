@@ -9249,6 +9249,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NetTie_2"
@@ -9257,6 +9258,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
@@ -9582,10 +9584,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aad3f396-2e5e-47ea-87a7-91ecf2376198")
 		(property "Reference" "J2"
-			(at 30.48 149.86 0)
+			(at 29.972 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,6 +9626,16 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Funktion" "USB-C"
+			(at 30.48 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
 			)
 		)
 		(pin "1"
