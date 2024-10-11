@@ -1,4 +1,4 @@
-23843087290454995
+23855186482006555
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56713,6 +56713,20 @@ ESP32
 0
 38
 38
+E22
+SIP-4
+
+
+0
+4
+4
+E22
+USB-C_vert
+
+
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -96760,3 +96774,38 @@ Varistor VF
 0
 2
 2
+footprints
+DM-OLED096-636
+
+
+0
+8
+8
+footprints
+E22-400M33S
+38.5mm*24mm*3.87mm LoRa Transceiver 33dBm
+
+0
+182
+23
+footprints
+ESP32-DevKitC
+ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+ESP32
+0
+38
+38
+footprints
+SIP-4
+
+
+0
+4
+4
+footprints
+USB-C_vert
+
+
+0
+4
+4
