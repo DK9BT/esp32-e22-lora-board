@@ -3253,6 +3253,127 @@
 				)
 			)
 		)
+		(symbol "NetTie:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -3973,6 +4094,12 @@
 		(uuid "04cf9353-9cc2-4271-9681-f41e4eb8f84a")
 	)
 	(junction
+		(at 171.45 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0670bcc1-5d6d-48ba-a309-336334e67361")
+	)
+	(junction
 		(at 182.88 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3985,10 +4112,22 @@
 		(uuid "11083b38-ee00-4733-b538-9ae8fa556d1a")
 	)
 	(junction
+		(at 175.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e5d774-cfef-47ce-8109-1b6d8ef1ab4e")
+	)
+	(junction
 		(at 81.28 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d30b6a4-cd73-48e3-bf19-d1e269aeb8b1")
+	)
+	(junction
+		(at 165.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292004cb-3c9d-44ec-9617-075655db773a")
 	)
 	(junction
 		(at 180.34 99.06)
@@ -4111,6 +4250,12 @@
 		(uuid "8d632c1d-2cb8-47c7-b2e6-b3fb39c0144b")
 	)
 	(junction
+		(at 170.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a8f991-81cf-48d8-be3e-3fff67aed565")
+	)
+	(junction
 		(at 86.36 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4177,6 +4322,12 @@
 		(uuid "c330435d-7c75-4a0d-92dc-2db191eac87a")
 	)
 	(junction
+		(at 166.37 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73ac26a-862e-435e-98b9-dd0a29ef8f63")
+	)
+	(junction
 		(at 259.08 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4205,12 +4356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc5b6d4d-eaf8-432f-a477-f44a2ed98796")
-	)
-	(junction
-		(at 175.26 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfc32524-cfa8-439b-a8ad-aebccbedc0ee")
 	)
 	(junction
 		(at 269.24 134.62)
@@ -4309,6 +4454,16 @@
 			(type default)
 		)
 		(uuid "00161800-224b-4c16-9a47-b5d61a285486")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e8ae62-2866-4522-a9cc-dfa4e66e916c")
 	)
 	(wire
 		(pts
@@ -4642,6 +4797,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 137.16) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3c502f-0e15-4c63-b8a8-a1290880a273")
+	)
+	(wire
+		(pts
 			(xy 49.53 33.02) (xy 52.07 33.02)
 		)
 		(stroke
@@ -4892,6 +5057,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e48e4d5-37c8-4326-82f1-c5bd688df0fd")
+	)
+	(wire
+		(pts
 			(xy 81.28 156.21) (xy 86.36 156.21)
 		)
 		(stroke
@@ -4989,16 +5164,6 @@
 			(type default)
 		)
 		(uuid "552f2006-5307-49e9-a0b5-90e1430ba1b2")
-	)
-	(wire
-		(pts
-			(xy 165.1 123.19) (xy 166.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5570b526-c281-46f3-adc9-4c57ef8f1637")
 	)
 	(wire
 		(pts
@@ -5422,6 +5587,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 123.19) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bb7e20-0d91-4e45-bb5f-a74a67a9104e")
+	)
+	(wire
+		(pts
 			(xy 156.21 166.37) (xy 156.21 168.91)
 		)
 		(stroke
@@ -5529,6 +5704,16 @@
 			(type default)
 		)
 		(uuid "95531aaf-580b-4911-8b4d-abfc91d0cf3e")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a6c55b-9fd1-4987-902f-884e6a53088c")
 	)
 	(wire
 		(pts
@@ -5792,16 +5977,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 123.19) (xy 175.26 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0ee6e0-25fa-4663-85a0-c1a1cabdb0dd")
-	)
-	(wire
-		(pts
 			(xy 203.2 50.8) (xy 203.2 104.14)
 		)
 		(stroke
@@ -5859,16 +6034,6 @@
 			(type default)
 		)
 		(uuid "c4450c16-511e-400f-9087-d9da6e43c784")
-	)
-	(wire
-		(pts
-			(xy 171.45 123.19) (xy 175.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c475431b-c22b-495b-afa4-45b05c9d26a8")
 	)
 	(wire
 		(pts
@@ -6122,6 +6287,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 135.89) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e648f7-bb38-4e04-9bdd-bba995319d62")
+	)
+	(wire
+		(pts
 			(xy 195.58 66.04) (xy 233.68 66.04)
 		)
 		(stroke
@@ -6189,6 +6364,16 @@
 			(type default)
 		)
 		(uuid "eff72c93-e2b1-4b68-9a20-3c7f01585787")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 171.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14c05a7-0430-4a92-8275-d27c5491a51c")
 	)
 	(wire
 		(pts
@@ -9050,6 +9235,73 @@
 		)
 	)
 	(symbol
+		(lib_id "NetTie:NetTie_2")
+		(at 172.72 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ffb31f9-305c-4b32-88ad-7c614e998ecc")
+		(property "Reference" "NT1"
+			(at 170.942 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 170.688 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 172.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbe8e4c-c050-4d64-9a00-0594e02535c5")
+		)
+		(pin "2"
+			(uuid "70cea6b4-558a-4afa-9336-329d6dd9a28a")
+		)
+		(instances
+			(project ""
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 34.29 0)
 		(unit 1)
@@ -9795,7 +10047,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 168.91 123.19 0)
+		(at 167.64 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -9803,7 +10055,7 @@
 		(dnp no)
 		(uuid "b41702bc-4d5b-46a4-9fe4-cd4874e186a0")
 		(property "Reference" "JP2"
-			(at 169.164 121.158 0)
+			(at 167.894 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +10063,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 168.91 120.65 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,7 +10072,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 168.91 123.19 0)
+			(at 167.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +10081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 123.19 0)
+			(at 167.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +10090,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 168.91 123.19 0)
+			(at 167.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

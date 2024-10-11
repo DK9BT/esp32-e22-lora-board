@@ -484,6 +484,10 @@
       {
         "netclass": "Default",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND2"
       }
     ]
   },
