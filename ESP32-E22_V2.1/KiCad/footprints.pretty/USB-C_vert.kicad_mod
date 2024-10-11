@@ -174,4 +174,15 @@
 		(remove_unused_layers no)
 		(uuid "0e504fbc-a573-4e3b-b673-4786c21faa39")
 	)
+	(model "${KIPRJMOD}/3D_model/USB-C_vert_breakout.STEP"
+		(offset
+			(xyz -6 2.5 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

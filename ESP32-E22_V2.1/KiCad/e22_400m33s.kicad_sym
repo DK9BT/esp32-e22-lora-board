@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Parts:E22-400M33S"
+		(property "Footprint" "footprints_local:E22-400M33S"
 			(at 8.89 1.905 0)
 			(effects
 				(font
@@ -459,24 +459,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 -41.91 90)
-				(length 2.54)
-				(name "TP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "TP"
 					(effects
 						(font
 							(size 1.27 1.27)

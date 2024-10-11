@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 - E22 Board")
-		(date "2024-10-04")
-		(rev "V2.0.11")
+		(date "2024-10-11")
+		(rev "V2.0.12")
 		(company "DK9BT / OE3WAS")
 	)
 	(lib_symbols
@@ -797,23 +797,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 15.24 0)
+			(property "Reference" "U"
+				(at -7.62 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "DM-OLED096-636"
-				(at 0 12.7 0)
+				(at -7.62 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "E22:DM-OLED096-636"
+			(property "Footprint" "footprints_local:DM-OLED096-636"
 				(at 0 0 0)
 				(effects
 					(font
@@ -973,42 +975,6 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "VCC_IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input clock
 					(at 12.7 2.54 180)
 					(length 5.08)
@@ -1038,6 +1004,44 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DM-OLED096-636_1_0"
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "VCC_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1786,7 +1790,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Parts:E22-400M33S"
+			(property "Footprint" "footprints_local:E22-400M33S"
 				(at 8.89 1.905 0)
 				(effects
 					(font
@@ -2229,24 +2233,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 8.89 -41.91 90)
-					(length 2.54)
-					(name "TP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 		(symbol "ESP32:ESP32-DevKitC"
@@ -2274,7 +2260,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-DevKitC"
+			(property "Footprint" "footprints_local:ESP32-DevKitC"
 				(at 0 -43.18 0)
 				(effects
 					(font
@@ -3165,6 +3151,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -3330,7 +3418,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints_local:USB-C_vert"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3371,7 +3459,7 @@
 				)
 			)
 			(symbol "USB-C_vert_1_1"
-				(pin power_in line
+				(pin output line
 					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "V+"
@@ -3891,6 +3979,12 @@
 		(uuid "0e0f6768-6cc2-495d-893e-ab6b7f1aba38")
 	)
 	(junction
+		(at 269.24 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11083b38-ee00-4733-b538-9ae8fa556d1a")
+	)
+	(junction
 		(at 81.28 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3919,12 +4013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3102ea6d-5f70-4102-b565-66a9df3e06dc")
-	)
-	(junction
-		(at 175.26 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3261e587-1211-4803-870f-c0b05ad80bd0")
 	)
 	(junction
 		(at 259.08 50.8)
@@ -4119,6 +4207,18 @@
 		(uuid "dc5b6d4d-eaf8-432f-a477-f44a2ed98796")
 	)
 	(junction
+		(at 175.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc32524-cfa8-439b-a8ad-aebccbedc0ee")
+	)
+	(junction
+		(at 269.24 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15015ae-b209-477b-b35d-8157a8ce19de")
+	)
+	(junction
 		(at 40.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4130,13 +4230,15 @@
 		(color 0 0 0 0)
 		(uuid "f640f23e-24ea-4ec2-9ee4-e16351670316")
 	)
+	(junction
+		(at 269.24 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbef38f4-eb47-4fbf-9928-f9b47c6aa533")
+	)
 	(no_connect
 		(at 128.27 83.82)
 		(uuid "05b6ec1d-a416-4e61-86c2-3d6e03044067")
-	)
-	(no_connect
-		(at 245.11 86.36)
-		(uuid "1f2eb50d-37b5-49cf-b5fd-c79a86af25dd")
 	)
 	(no_connect
 		(at 128.27 33.02)
@@ -4247,16 +4349,6 @@
 			(type default)
 		)
 		(uuid "070d6afb-c6fc-4ace-bb81-aa7f71092271")
-	)
-	(wire
-		(pts
-			(xy 165.1 135.89) (xy 167.64 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08cb5ef3-59f8-498b-b5a9-656006e1158e")
 	)
 	(wire
 		(pts
@@ -4500,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 134.62) (xy 269.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259bea64-8657-4fb5-93de-7d4f91730d33")
+	)
+	(wire
+		(pts
 			(xy 180.34 55.88) (xy 180.34 83.82)
 		)
 		(stroke
@@ -4507,16 +4609,6 @@
 			(type default)
 		)
 		(uuid "259e2b0a-f03c-4b3c-a9d1-3447c3823ec3")
-	)
-	(wire
-		(pts
-			(xy 172.72 123.19) (xy 177.8 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a04e82-b4b7-496b-9153-5438aecd03b9")
 	)
 	(wire
 		(pts
@@ -4790,16 +4882,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 123.19) (xy 167.64 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a8da81-04ab-4e31-bfd6-87a1dcd7e239")
-	)
-	(wire
-		(pts
 			(xy 86.36 181.61) (xy 86.36 182.88)
 		)
 		(stroke
@@ -4910,6 +4992,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 123.19) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5570b526-c281-46f3-adc9-4c57ef8f1637")
+	)
+	(wire
+		(pts
 			(xy 180.34 83.82) (xy 180.34 86.36)
 		)
 		(stroke
@@ -4997,6 +5089,26 @@
 			(type default)
 		)
 		(uuid "5bb0cc2b-c9fc-4f59-b41e-4deeeb86ed1b")
+	)
+	(wire
+		(pts
+			(xy 269.24 132.08) (xy 269.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd3d55e-300f-4497-8e3b-3f1cd14cba2e")
+	)
+	(wire
+		(pts
+			(xy 269.24 129.54) (xy 269.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6d0921-3134-4344-902e-994a99658d5a")
 	)
 	(wire
 		(pts
@@ -5370,7 +5482,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 93.98) (xy 175.26 135.89)
+			(xy 177.8 135.89) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1c4b8c-502d-4241-9aa8-2d4e2bea0c22")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5580,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 177.8 123.19)
+			(xy 177.8 100.33) (xy 177.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5670,6 +5792,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 123.19) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ee6e0-25fa-4663-85a0-c1a1cabdb0dd")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 203.2 104.14)
 		)
 		(stroke
@@ -5730,6 +5862,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 123.19) (xy 175.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c475431b-c22b-495b-afa4-45b05c9d26a8")
+	)
+	(wire
+		(pts
 			(xy 43.18 167.64) (xy 48.26 170.18)
 		)
 		(stroke
@@ -5747,6 +5889,16 @@
 			(type default)
 		)
 		(uuid "c48434e7-43e2-4512-94df-79226d05c9f6")
+	)
+	(wire
+		(pts
+			(xy 269.24 124.46) (xy 269.24 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ddabff-f39b-41c7-8298-c455d3636907")
 	)
 	(wire
 		(pts
@@ -5807,16 +5959,6 @@
 			(type default)
 		)
 		(uuid "d1356a3f-4218-4e72-811a-837e162045d2")
-	)
-	(wire
-		(pts
-			(xy 175.26 135.89) (xy 175.26 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d25f4695-1e0c-4c5e-9be1-9846b89b60b7")
 	)
 	(wire
 		(pts
@@ -5907,6 +6049,16 @@
 			(type default)
 		)
 		(uuid "d9e149a3-fe75-47cc-b045-b2865d0aef82")
+	)
+	(wire
+		(pts
+			(xy 165.1 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddcd6fe4-29fc-4213-9aed-de2e18d379a5")
 	)
 	(wire
 		(pts
@@ -6037,16 +6189,6 @@
 			(type default)
 		)
 		(uuid "eff72c93-e2b1-4b68-9a20-3c7f01585787")
-	)
-	(wire
-		(pts
-			(xy 172.72 135.89) (xy 175.26 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e5a2f2-fac5-4946-98f0-2e49b4c60bca")
 	)
 	(wire
 		(pts
@@ -6710,6 +6852,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 271.78 134.62 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "12b0d306-ab88-4365-a395-85d063187697")
+		(property "Reference" "H3"
+			(at 275.59 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 271.7801 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 271.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6ebf3dc-9399-42cd-bc93-51127cf47166")
+		)
+		(instances
+			(project "esp32-e22"
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 166.37 97.79 0)
 		(unit 1)
@@ -7139,7 +7348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "E22:ESP32-DevKitC"
+		(property "Footprint" "footprints_local:ESP32-DevKitC"
 			(at 95.25 106.68 0)
 			(effects
 				(font
@@ -7486,6 +7695,74 @@
 			(project "esp32-e22"
 				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 271.78 139.7 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40283630-786c-4a1c-9cb4-d63f0e6ed31a")
+		(property "Reference" "H4"
+			(at 275.59 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 271.7801 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 271.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 271.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6b530e-cfa1-4b80-840c-524e00f22b46")
+		)
+		(instances
+			(project "esp32-e22"
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7992,6 +8269,74 @@
 			(project ""
 				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 271.78 124.46 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6324c9b4-2870-44c6-afb8-909fba78fb79")
+		(property "Reference" "H1"
+			(at 275.59 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 271.7801 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "781ede06-adce-4273-bc10-a24a0debf5b7")
+		)
+		(instances
+			(project ""
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8911,7 +9256,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 170.18 123.19 0)
+		(at 168.91 135.89 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8919,7 +9264,7 @@
 		(dnp no)
 		(uuid "a17302de-f244-408d-998d-bf4005a43c12")
 		(property "Reference" "JP1"
-			(at 170.18 121.158 0)
+			(at 168.91 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +9272,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 170.18 120.65 0)
+			(at 168.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +9281,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 170.18 123.19 0)
+			(at 168.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +9290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 123.19 0)
+			(at 168.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +9299,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 170.18 123.19 0)
+			(at 168.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:USB-C_vert"
+		(property "Footprint" "footprints_local:USB-C_vert"
 			(at 26.67 166.37 0)
 			(effects
 				(font
@@ -9077,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E22:DM-OLED096-636"
+		(property "Footprint" "footprints_local:DM-OLED096-636"
 			(at 152.4 130.81 0)
 			(effects
 				(font
@@ -9271,7 +9616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E22:E22-400M33S"
+		(property "Footprint" "footprints_local:E22-400M33S"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -9345,9 +9690,6 @@
 		)
 		(pin "15"
 			(uuid "a571f56b-9093-4155-a02e-249280bce5e6")
-		)
-		(pin "TP"
-			(uuid "2121fb67-a748-4627-9572-cfb1a4120a63")
 		)
 		(pin "18"
 			(uuid "3f418bcb-0dc7-4571-a8b6-27ae650af9a6")
@@ -9453,16 +9795,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 170.18 135.89 0)
+		(at 168.91 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b41702bc-4d5b-46a4-9fe4-cd4874e186a0")
 		(property "Reference" "JP2"
-			(at 170.18 133.35 0)
+			(at 169.164 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9811,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 170.18 133.35 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9820,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 170.18 135.89 0)
+			(at 168.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 135.89 0)
+			(at 168.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +9838,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 170.18 135.89 0)
+			(at 168.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,6 +10320,72 @@
 			(project "esp32-e22"
 				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9c5237a-6db3-434b-bf53-10aad9015d63")
+		(property "Reference" "#PWR021"
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.176 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1222d773-2b6e-4b75-b65a-6251c2ae2a4e")
+		)
+		(instances
+			(project "esp32-e22"
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10687,6 +11094,74 @@
 			(project "esp32-e22"
 				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 271.78 129.54 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9ce687c-4758-495b-8ce8-a9597e378d12")
+		(property "Reference" "H2"
+			(at 275.59 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 271.7801 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 271.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 271.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7be89b-3e70-4919-9627-4e4d1de72c4b")
+		)
+		(instances
+			(project "esp32-e22"
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "H2")
 					(unit 1)
 				)
 			)

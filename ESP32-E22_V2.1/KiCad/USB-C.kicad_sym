@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints_local:USB-C_vert"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "USB-C_vert_1_1"
-			(pin power_in line
+			(pin output line
 				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "V+"

@@ -8890,7 +8890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-DevKitC"
+		(property "Footprint" "footprints_local:ESP32-DevKitC"
 			(at 0 -43.18 0)
 			(effects
 				(font
