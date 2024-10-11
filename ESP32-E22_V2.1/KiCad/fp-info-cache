@@ -1,4 +1,4 @@
-23855186482006555
+23865843144215379
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56704,8 +56704,8 @@ E22-400M33S
 38.5mm*24mm*3.87mm LoRa Transceiver 33dBm
 
 0
-182
-23
+22
+22
 E22
 ESP32-DevKitC
 ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
@@ -96786,8 +96786,8 @@ E22-400M33S
 38.5mm*24mm*3.87mm LoRa Transceiver 33dBm
 
 0
-182
-23
+22
+22
 footprints
 ESP32-DevKitC
 ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
