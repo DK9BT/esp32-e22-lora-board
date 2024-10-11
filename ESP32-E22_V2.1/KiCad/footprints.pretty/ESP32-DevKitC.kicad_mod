@@ -1035,7 +1035,7 @@
 	)
 	(model "${KIPRJMOD}/3D_model/ESP32-WROOM-32D.STEP"
 		(offset
-			(xyz 12.5 -22 2.5)
+			(xyz 12.5 -23 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
