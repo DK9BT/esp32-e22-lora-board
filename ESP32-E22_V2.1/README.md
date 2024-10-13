@@ -19,7 +19,7 @@ https://de.aliexpress.com/item/1005007821332638.html
 
 ### Erläuterung zur Schutzbeschaltung
 
-• Die Transient Voltage Suppressor Diode schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA
+• Die Transient Voltage Suppressor Diode schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA  
 • Die 2 Schottky-Dioden entkoppeln die Versorgungseingänge.
 
 Wenn das E22-Modul über das ESP32-Board versorgt wird, dann ist auch eine Schottky-Diode im Spannungspfad, aber es können u.U. über den USB-µ Stecker nicht die zusätzlich zum ESP32-Board erforderlichen 650mA für den E22 beim Senden geliefert werden.
