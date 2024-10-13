@@ -24,7 +24,7 @@ https://de.aliexpress.com/item/1005007821332638.html
 
 Wenn das E22-Modul über das ESP32-Board versorgt wird, dann ist auch eine Schottky-Diode im Spannungspfad, aber es können u.U. über den USB-µ Stecker nicht die zusätzlich zum ESP32-Board erforderlichen 650mA für den E22 beim Senden geliefert werden.
 
-Bei Versorgung über externe USB-C ist ebenso eine Schottky-Diode zur Entkopplung, bringt aber den Vorteil der höheren Stromverfügbarkeit und robusteren USB-C Verbinder.
+Bei Versorgung über externe USB-C ist ebenso eine Schottky-Diode zur Entkopplung, bringt aber den Vorteil der höheren Stromverfügbarkeit und robusteren USB-C Verbinder. (nom. 5V/3A)
 
 Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber es könnte mit ≈5,5V versorgt werden, um den Spannungsabfall auszugleichen, um den E22 max. zu versorgen.
 
@@ -33,15 +33,17 @@ Für genauere Infos siehe die entsprechenden Datenblätter der Bauteile.
 
 ### Erläuterungen zum Gehäuseeinbau:
 
-Das Gehäuse verfügt über Ø3,2x4 Sacklöcher. Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden.
-Bei anderem Bedarf können die Befestigungsbohrungen auf der PCB aufgebohrt werden.
+Das Gehäuse verfügt über 4 Stk. Sacklöcher Ø3,2x4. Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden.
+Bei anderem Bedarf können die Befestigungsbohrungen auf der PCB aufgebohrt werden.  
 ![Einpressbuchse_M2x4x3,5](https://github.com/user-attachments/assets/9b76f58b-3f03-4ac9-bbe7-2f518731cc2d)
 
-Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben.
+### Erläuterung zur SMA-Antennen-Buchse:
 
-Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.
+Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben. Bei Verwendung ohne Gehäuse kann auch eine gewinkelte SMA-Buchse eingebaut werden.
 
 ### Erläuterung zur USB-C Buchse:
 
-Es reicht sicher, die mit einem Spiegelband aufzukleben und dann mit Drahtstückchen zu verbinden.  
-Optional können da aber auch USB-C Einbaubuchsen mit Drähten verbunden werden. Infos dazu folgen ...
+Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.  
+Es reicht sicher, dies mit einem Spiegelband aufzukleben und dann mit Drahtstückchen zu verbinden.  
+Optional kann da aber auch eine 4-pol Stiftleiste od. Buchsenleiste eingebaut werden und eine USB-C Einbaubuchse mit Drähten verbunden werden.  
+Infos dazu folgen noch ...
