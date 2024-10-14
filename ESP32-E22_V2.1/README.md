@@ -37,6 +37,10 @@ Das Gehäuse verfügt über 4 Stk. Sacklöcher Ø3,2x4. Darin können M2x4x3,5 E
 Bei anderem Bedarf können die Befestigungsbohrungen auf der PCB aufgebohrt werden.  
 ![Einpressbuchse_M2x4x3,5](https://github.com/user-attachments/assets/9b76f58b-3f03-4ac9-bbe7-2f518731cc2d)
 
+Für das wasserdichte Gehäuse ist eine Druckausgleichsmembran zu empfehlen, damit das Wasser auch wieder herausdiffundieren kann. Sonst steht irgendwann die Leiterplatte unter Wasser.  
+z.B. https://shop.bb-sensors.com/Druck/Drucksensoren/Druckausgleich-Membran-VPE-12-Stueck.html  
+Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.
+
 ### Erläuterung zur SMA-Antennen-Buchse:
 
 Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben. Bei Verwendung ohne Gehäuse kann auch eine gewinkelte SMA-Buchse eingebaut werden.
