@@ -46,4 +46,4 @@ Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-
 Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.  
 Es reicht sicher, dies mit einem Spiegelband aufzukleben und dann mit Drahtstückchen zu verbinden.  
 Optional kann da aber auch eine 4-pol Stiftleiste od. Buchsenleiste eingebaut werden und eine USB-C Einbaubuchse mit Drähten verbunden werden.  
-Infos dazu folgen noch ...
+Links siehe Stückliste.
