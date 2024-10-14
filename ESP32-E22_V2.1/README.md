@@ -13,8 +13,8 @@ Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industrie
 Gehäuse Maßzeichnung:
 https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf
 
-USB-C vertical breakout board
-https://de.aliexpress.com/item/1005007821332638.html
+USB-C vertical breakout board https://de.aliexpress.com/item/1005007821332638.html  
+USB-C Gehäusebuchse https://de.aliexpress.com/item/1005005388486563.html
 
 
 ### Erläuterung zur Schutzbeschaltung
