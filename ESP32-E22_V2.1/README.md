@@ -48,6 +48,9 @@ Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-
 Als Gehäusedurchführung kann eine dichte SMA-Bu <> SMA-Bu verwendet werden:  
 https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
 
+Alternativ eine SMA-Bu <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden):  
+https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
+
 ### Erläuterung zur USB-C Buchse:
 
 Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.  
