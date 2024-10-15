@@ -41,6 +41,7 @@ Für das wasserdichte Gehäuse ist eine Druckausgleichsmembran zu empfehlen, dam
 z.B. https://shop.bb-sensors.com/Druck/Drucksensoren/Druckausgleich-Membran-VPE-12-Stueck.html  
 oder https://www.reichelt.at/at/de/shop/produkt/druckausgleichselement_m12_schwarz_2_stueck-371154  
 oder https://www.amazon.de/dp/B088QJG676
+
 Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.
 
 ### Erläuterung zur SMA-Antennen-Buchse:
