@@ -11,6 +11,8 @@ BME/BMP280 3,3V https://www.amazon.de/AZDelivery-GY-BME280-Barometrischer-Temper
 
 GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
+Reichelt: https://www.reichelt.de/my/2192127
+
 
 
 ### Versions Info
