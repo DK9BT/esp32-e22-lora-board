@@ -44,7 +44,9 @@ Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgle
 
 ### Erläuterung zur SMA-Antennen-Buchse:
 
-Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben. Bei Verwendung ohne Gehäuse kann auch eine gewinkelte SMA-Buchse eingebaut werden.
+Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben. Bei Verwendung ohne Gehäuse kann auch eine gewinkelte SMA-Buchse eingebaut werden.  
+Als Gehäusedurchführung kann eine dichte SMA-Bu <> SMA-Bu verwendet werden:  
+https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
 
 ### Erläuterung zur USB-C Buchse:
 
