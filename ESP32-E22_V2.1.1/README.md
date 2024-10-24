@@ -1,4 +1,4 @@
-# ESP32-E22-LoRa-board V2.1.1 - alpha 2
+# ESP32-E22-LoRa-board V2.1.1 - alpha 3
 Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU  
 Variante einseitig bestückt / Variant equipped on one side
 
