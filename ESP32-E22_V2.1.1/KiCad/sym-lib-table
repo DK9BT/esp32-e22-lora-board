@@ -5,4 +5,5 @@
   (lib (name "DM-OLED096-636")(type "KiCad")(uri "${KIPRJMOD}/DM-OLED096-636.kicad_sym")(options "")(descr ""))
   (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/USB-C.kicad_sym")(options "")(descr ""))
   (lib (name "NetTie")(type "KiCad")(uri "${KIPRJMOD}/NetTie.kicad_sym")(options "")(descr ""))
+  (lib (name "HW-613")(type "KiCad")(uri "${KIPRJMOD}/HW-613.kicad_sym")(options "")(descr ""))
 )
