@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32+E22 single sided")
-		(date "2024-10-27")
+		(date "2024-10-30")
 		(rev "V 2.1.1")
 		(comment 1 "designed by OE3WAS")
 		(comment 4 "AISLER Project ID:")
