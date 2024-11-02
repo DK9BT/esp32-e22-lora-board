@@ -20,7 +20,7 @@ Wenn das E22-Modul über das ESP32-Board versorgt wird, dann ist auch eine Schot
 
 Bei Versorgung über externe USB-C ist ebenso eine Schottky-Diode zur Entkopplung, bringt aber den Vorteil der höheren Stromverfügbarkeit und robusteren USB-C Verbinder. (nom. 5V/3A)
 
-Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber es könnte mit ≈5,5V versorgt werden, um den Spannungsabfall auszugleichen, um den E22 max. zu versorgen. Zusätzlich ist eine Feinsicherung und stärkere Schutzdiode eingebaut worden.
+Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des **DC/DC-Wandler-Boards HW-613** kann mit bis zu 6-24V DC versorgt werden. Zusätzlich ist eine Feinsicherung und eine Schutzdiode gegen Verpolung eingebaut worden.
 
 Für genauere Infos siehe die entsprechenden Datenblätter der Bauteile.
 
@@ -45,6 +45,9 @@ https://www.amazon.de/dp/B0C8J131PD
 
 Alternativ eine SMA-Bu <> SMA-Bu:  
 https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
+
+Alternativ eine IPEX <> SMA-Einbaubuchse:  
+...
 
 Alternativ eine SMA-Bu <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden):  
 https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
