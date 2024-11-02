@@ -25,9 +25,10 @@ Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch 
 Für genauere Infos siehe die entsprechenden Datenblätter der Bauteile.
 
 ### Erläuterungen zum Gehäuseeinbau:
-Das Gehäuse verfügt über 4 Stk. Sacklöcher Ø3,2x4. Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden, wenn **keine** Schraubklemme+DC/DC-Wandler verwendet wird.  
-Bei Verwendung der Schraubklemme + DC/DC-Wandler, der auf der Rückseite der PCB platziert ist, muss ein größerer Abstand der PCB vom Gehäuseboden durch Verwendung von M2x**6**x3,5 Einpressmuttern eingehalten werden. Alternativ können Abstandsröhchen L≥1,5mm verwendet werden und M2x8 Schrauben.
-Bei anderem Bedarf können aber auch die Befestigungsbohrungen auf der PCB aufgebohrt werden.  
+• Das Gehäuse verfügt über 4 Stk. Sacklöcher Ø3,2x4.  
+• Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden, wenn **keine** Schraubklemme+DC/DC-Wandler verwendet werden.  
+• Bei Verwendung der Schraubklemme + DC/DC-Wandler, der auf der Rückseite der PCB platziert ist, muss ein größerer Abstand der PCB vom Gehäuseboden durch Verwendung von M2x**6**x3,5 Einpressmuttern eingehalten werden. Alternativ können auch Abstandsröhchen L≥1,5mm verwendet werden und M2x8 Schrauben.  
+• Bei anderem Bedarf können aber auch die Befestigungsbohrungen auf der PCB aufgebohrt werden.  
 ![Einpressbuchse_M2x4x3,5](https://github.com/user-attachments/assets/9b76f58b-3f03-4ac9-bbe7-2f518731cc2d)
 
 Für das wasserdichte Gehäuse ist eine Druckausgleichsmembran zu empfehlen, damit das Wasser auch wieder herausdiffundieren kann. Sonst steht irgendwann die Leiterplatte unter Wasser.  
