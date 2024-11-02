@@ -71,4 +71,4 @@ Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die
 **Für USB-C Versorgung gibt es verschiedene Lösungen, die in hier aufgelistet werden ...**  
 **... stay tuned ...**
 
-***OE3WAS - 2.11.2024***
+***OE3WAS - Wolfgang - 2.11.2024***
