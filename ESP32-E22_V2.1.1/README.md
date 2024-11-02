@@ -65,8 +65,10 @@ USB-C vertical breakout board https://de.aliexpress.com/item/1005007821332638.ht
 
 ### Ergänzung zur Frage: "PD oder nicht?"
 Für USB-C PD (Power Delivery) ist ein Kommunikations-IC an CC1 & CC2 erforderlich.  
-Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 der Strom "eingestellt" werden.  
+Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 wird der Strom "eingestellt".  
 **5k1 sind für 5V/3A**
 
-**für USB-C Versorgung gibt es verschiedene Lösungen, die in hier aufgelistet werden ...**  
+**Für USB-C Versorgung gibt es verschiedene Lösungen, die in hier aufgelistet werden ...**  
 **... stay tuned ...**
+
+***OE3WAS - 2.11.2024***
