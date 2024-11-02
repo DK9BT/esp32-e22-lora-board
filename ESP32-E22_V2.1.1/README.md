@@ -50,8 +50,10 @@ Alternativ eine SMA-Bu <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie v
 https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
 
 ### Programmierkabel für ESP32:
-könnte auf Grunde der nur 20cm im Gehäuse verbleiben:  
-https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766
+könnte wegen der nur 20cm im Gehäuse verbleiben:  
+https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766  
+oder einen Winkeladapter verwenden:  
+https://www.amazon.de/dp/B0CRVH7JRD
 
 ### Erläuterung zur USB-C Buchse:
 Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.  
@@ -62,3 +64,6 @@ USB-C vertical breakout board https://de.aliexpress.com/item/1005007821332638.ht
 Für USB-C PD (Power Delivery) ist ein Kommunikations-IC an CC1 & CC2 erforderlich.  
 Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 der Strom "eingestellt" werden.  
 **5k1 sind für 5V/3A**
+
+**für USB-C Versorgung gibt es verschiedene Lösungen, die in hier aufgelistet werden ...**  
+**... stay tuned ...**
