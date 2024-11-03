@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 - E22 Board")
-		(date "2024-10-25")
+		(date "2024-11-03")
 		(rev "V2.1.1")
 		(company "DK9BT / OE3WAS")
 	)
@@ -6246,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 66.04) (xy 49.53 71.12)
+			(xy 49.53 66.04) (xy 49.53 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7726,7 +7726,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 73.66) (xy 49.53 77.47)
+			(xy 49.53 72.39) (xy 49.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7833,6 +7833,18 @@
 		)
 		(uuid "8f15162c-5a9c-4fb4-a66f-ae6a20085c86")
 	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 49.53 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a2bd1c63-f7e0-4d29-bb41-171b8969cddb")
+	)
 	(text "GPS_TX"
 		(exclude_from_sim no)
 		(at 151.13 91.694 0)
@@ -7882,6 +7894,18 @@
 			)
 		)
 		(uuid "bbbdf153-0053-4295-b122-a0ac7db2b81b")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 49.53 164.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d2b041f1-2b82-460b-92ad-b411338e414b")
 	)
 	(text "GPS_RX"
 		(exclude_from_sim no)
@@ -7979,7 +8003,7 @@
 		(uuid "307cdb0f-200c-4885-b9b7-c4c7ad8b2891")
 	)
 	(label "E22_RXEN"
-		(at 62.23 113.03 0)
+		(at 63.5 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8380,7 +8404,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ee785ae-4ef4-4401-8636-ff53d29c2af8")
 		(property "Reference" "#PWR020"
 			(at 270.51 67.31 0)
@@ -8392,7 +8415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 62.2299 0)
+			(at 268.478 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 85.852 0)
+			(at 261.112 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,10 +10455,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c98d020-00f1-4fea-b486-fee025aaf365")
 		(property "Reference" "J1"
-			(at 20.955 35.56 0)
+			(at 20.828 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10729,7 @@
 		(dnp no)
 		(uuid "9e392ade-3fe9-48f5-898d-3fec46fb7ffd")
 		(property "Reference" "J3"
-			(at 52.07 161.798 0)
+			(at 51.816 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +10773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Function" "ext. Power DC"
+		(property "Function" "ext. 6..24V"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -10983,17 +11005,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 44.45 71.12 0)
+		(at 44.45 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a19281f1-0fba-451b-bb0d-7f97e7cab6ea")
 		(property "Reference" "J10"
-			(at 45.085 68.58 0)
+			(at 45.212 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11022,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 43.18 73.6599 0)
+			(at 43.18 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11032,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 44.45 71.12 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 71.12 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11050,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 44.45 71.12 0)
+			(at 44.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "1N4007"
 			(at 68.58 176.5299 90)
 			(effects
 				(font
@@ -12522,10 +12543,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7f7bc9b-8b14-40d7-a8f7-dc56e2a1902f")
 		(property "Reference" "J9"
-			(at 278.13 57.1499 0)
+			(at 274.828 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
