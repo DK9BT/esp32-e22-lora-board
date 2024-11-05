@@ -1,7 +1,7 @@
 # ESP32-E22-LoRa-board V2.1.2 - beta
 Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU  
 Variante einseitig bestückt / Variant equipped on one side  
-Querformat für Outdoor / Landscape for Outdoor
+Querformat im Gehäuse für Outdoor / Landscape in the enclosure for Outdoor
 
 ### additional special components
 Enclosure (transparent)  
