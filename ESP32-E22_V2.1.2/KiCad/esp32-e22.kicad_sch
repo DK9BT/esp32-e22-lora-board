@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 - E22 Board")
-		(date "2024-11-04")
+		(date "2024-11-05")
 		(rev "V2.1.2")
 		(company "OE3WAS")
 	)
@@ -12683,7 +12683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
 			(at 214.63 78.74 0)
 			(effects
 				(font
