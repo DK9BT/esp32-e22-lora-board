@@ -20,6 +20,10 @@ Reichelt: https://www.reichelt.de/my/2192127
 
 
 ### Versions Info
+**V 2.1.2  PCB** querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
+oder PCB vertikale Einbau
+
+**Vorversionen:**  
 V 1.x    OE5HWN Versionen
 
 V 2.0.x  Design-Phase
@@ -29,7 +33,6 @@ V 2.1.0  Variante einseitig bestückt / Variant equipped on one side
 
 ~~V 2.1.1  PCB vertikal im Gehäuse~~  
 
-**V 2.1.2  PCB** querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
-oder PCB vertikale Einbau
+
 
 V 2.2.x  Variante beidseitig bestückt / Variant equipped on both sides
