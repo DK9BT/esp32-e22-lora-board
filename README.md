@@ -11,7 +11,7 @@ ESP32 Board Dev Kit C V4 https://www.amazon.de/dp/B08BTS62L7/ / https://www.amaz
 
 BME/BMP280 3,3V https://www.amazon.de/dp/B07FS95JXT/
 
-OLED-Display (VCC Left): https://www.amazon.de/dp/B0C9LJ898Z/
+OLED-Display (VCC-GND-SCL-SDA): https://www.amazon.de/dp/B0C9LJ898Z/
 
 GPS https://www.amazon.de/dp/B0D3DJ58R8/
 
@@ -29,7 +29,7 @@ V 2.1.0  Variante einseitig bestückt / Variant equipped on one side
 
 ~~V 2.1.1  PCB vertikal im Gehäuse~~  
 
-V 2.1.2  PCB querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
+**V 2.1.2  PCB** querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
 oder PCB vertikale Einbau
 
 V 2.2.x  Variante beidseitig bestückt / Variant equipped on both sides
