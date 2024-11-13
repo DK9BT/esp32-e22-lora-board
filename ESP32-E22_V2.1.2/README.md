@@ -42,17 +42,18 @@ oder https://www.amazon.de/dp/B088QJG676
 Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.
 
 ### Erläuterung zur SMA-Antennen-Buchse:
-Durch die stehende SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben. Bei Verwendung ohne Gehäuse kann auch eine gewinkelte SMA-Buchse eingebaut werden.  
-Als Gehäusedurchführung kann eine dichte **N-Buchse <> U.FL IPEX** verwendet werden  
+• Durch die bestückte SMA-Buchse ist eine mechanische Entkopplung von Gehäuse-PCB-Montage-SMA-Buchse zu einer ev. am Gehäuse montierter Antennen-Buchse, über Koaxkabel, gegeben.  
+
+• Als Gehäusedurchführung kann eine dichte **N-Buchse <> U.FL IPEX** verwendet werden  
 https://www.amazon.de/dp/B0C8J131PD
 
-Alternativ eine SMA-Bu <> SMA-Bu:  
+• Alternativ eine SMA-Bu <> SMA-Bu:  
 https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
 
-Alternativ eine IPEX <> SMA-Einbaubuchse:  
+• Alternativ eine IPEX <> SMA-Einbaubuchse:  
 ...
 
-Alternativ eine SMA-Bu <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden):  
+• Alternativ eine SMA-Bu <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden):  
 https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
 
 ### Programmierkabel für ESP32:
