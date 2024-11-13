@@ -15,5 +15,5 @@ or **PDF Xchange Editor** https://www.pdf-xchange.com/product/pdf-xchange-editor
 ![InTheBox3](ESP32-E22_2.1.2_intheBox_y.jpg)
 
 ## Hochformat-Einbau
-![InTheBox1](ESP32-E22_2.1.1_intheBox.png)  
+![InTheBox1](ESP32-E22_2.1.1_intheBox.PNG)  
 ![InTheBox2](ESP32-E22_2.1.1_intheBox_x.PNG)  
