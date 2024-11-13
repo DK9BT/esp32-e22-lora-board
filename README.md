@@ -24,7 +24,9 @@ V 1.x    OE5HWN Versionen
 
 V 2.0.x  Design-Phase
 
-V 2.1.x  Variante einseitig bestückt / Variant equipped on one side (Order Link: https://aisler.net/p/LMKJXZAY)
+V 2.1.x  Variante einseitig bestückt / Variant equipped on one side 
+(Order Link: https://aisler.net/p/LMKJXZAY)
+
 V 2.1.1  PCB vertikal im Gehäuse  
 V 2.1.2  PCB querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
 
