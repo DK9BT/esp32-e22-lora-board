@@ -4,12 +4,13 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 ## 1) Minimalbestückung
 
-### Key-Components
+### 1.1 Key-Components
 * PCB V2.1.2
 * ESP32-DevKitC-V4
-* EE22_...
+* EE22-400M30S (30dBm) od. E22-400M33S (33dBm)
 * Kleinteile dafür
 
+**1.2 Varianten für ESP32 & E22**
 
 
 ...
