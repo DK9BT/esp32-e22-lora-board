@@ -10,13 +10,21 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 * **EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm)
 * **Kleinteile** dafür
 
-**1.2 Varianten für ESP32**  
+**1.2 Einbau-Varianten für ESP32**  
 [text]  
+a) Stift- und Buchsenleisten  
+...
+b) IC-Sockelstifte & IC-Sockel  
+...
 [img]  
 ...
 
-**1.3 Varianten für E22**  
+**1.3 Einbau-Varianten für E22**  
 [text]  
+a) Direktlötung  
+...
+b) IC-Sockelstifte & IC-Sockel  
+...
 [img]  
 ...
 
