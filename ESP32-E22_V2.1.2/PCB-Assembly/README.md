@@ -10,7 +10,11 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 * EE22-400M30S (30dBm) od. E22-400M33S (33dBm)
 * Kleinteile dafür
 
-**1.2 Varianten für ESP32 & E22**
-
-
+**1.2 Varianten für ESP32**  
 ...
+
+**1.3 Varianten für E22**  
+...
+
+___
+***14.11.2024 by OE3WAS***
