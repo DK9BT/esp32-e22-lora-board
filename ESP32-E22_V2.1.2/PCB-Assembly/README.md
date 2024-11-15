@@ -28,6 +28,9 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 ### 1.4 OLED 0,96"
 Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehen, die mit 4-pol Bu-Streifen bestückt werden.  
+Die OLED gibt es in grundsätzlich 2 verschiedenen Pin-Anordnungen. Die angegebene (VCC-GND-SCL-SDA) ist bereits auf der PCB verdrahtet. Falls man VCC <> GND umdrehen möchte, dann sind auf der Rückseiten 2 Leiterbahnen zu unterbrechen und 2 Drahtbrücken herzustellen (JP1 & JP2).  
+Bei manchen OLEDs kann man noch die **I²C**-Adresse von **0x78** auf **0x7A** ändern und zusätzlich auch noch auf dem OLED selber die VCC<>GND durch die J1/J2/J3/J4 im Foto vertausche.  
+<img src="..\picass\OLED.jpg" alt="OLED" width="300"> 
 
 ### 1.5 Kleinteile
 * **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & **C3** (220..470µF, liegender Einbau) & **C4** (100nF)  
@@ -39,7 +42,7 @@ Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehe
 
 
 ### 1.x Testlauf #1
-Das Online-Flash Tool hat auch eine Console. Chromium Browsers only https://oe1kfr.com/esptool/
+Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)
 
 ___
 ***15.11.2024 by OE3WAS***
