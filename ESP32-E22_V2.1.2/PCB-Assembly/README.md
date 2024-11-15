@@ -4,38 +4,36 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 ## 1) Minimalbestückung
 * Die folgenden BT sind das absolute Minimum für die grundsätzliche Funktion.
-* Die Versorgung des ESP32 & E22 erfolgt mittels eines passenden USB-Netzgerät, welches mind. 2A am USB-mikro Stecker bereitstellen kann.
+* Über die USB-mikro Buchse am ESP32 wird auch das E22-Modul versorgt. Voraussetzung ist eine passenden USB-Netzgerät, welches mind. 2A bereitstellen kann.
 
 ### 1.1 Key-Components
 * **PCB V2.1.2**
 * **U1 = ESP32-DevKitC-V4**
 * **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm)
 * **U2 = OLED 0,96"**
-* **Kleinteile**
 
 **1.2 Einbau-Varianten für U1 = ESP32-DevKitC V4**  
-[text]  
-a) Stift- und Buchsenleisten  
-...  
-b) IC-Sockelstifte & IC-Sockel  
-...  
-[img]  
-...  
+* **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden:  
+<img src="..\picass\ESP32_BuLeiste.jpg" alt="InTheBox1" width="300">  
+
+* **b)** Es können aber auch IC-Sockelstifte & Sockelbuchsen verwendet werden. Dies hat den Vorteil, dass das ESP32-Modul problemlos auf ein Steckbrett eingesteckt werden kann.  
+<img src="..\picass\ESP32_IC-Sockel.jpg" alt="InTheBox1" width="300">  
 
 **1.3 Einbau-Varianten für E22**  
-[text]  
-a) Direktlötung  
+* **a)** Das E22-Modul ist für SMD-Direktlötung vorgesehen. Der NT ist, dass es bei Defekt schwieriger abzulöten ist.
+* **b)** Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich IC-Sockelstifte & IC-Sockel im Raster 2,54 zu verwenden.  
 ...  
-b) IC-Sockelstifte & IC-Sockel  
-...  
-[img]  
-...  
+[img]   
 
-**1.4 Kleinteile**  
-* **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol**
-* **C3** (220..470µF) & **C4** (100nF) 
+**1.4 OLED 0,96"**  
+Für das OLED sind 2 Positionen 0° & 90° (J11) vorgesehen, die mit 4-pol Bu-Streifen bestückt werden.  
+
+**1.5 Kleinteile**  
+* **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & **C3** (220..470µF) & **C4** (100nF)  
+<img src="..\picass\U1+U2+C3+C4.jpg" alt="InTheBox1" width="500">  
+* SMA-Buchse oder IPEX-SMA-Buchse Adapterkabel
 [img]  
 ...  
 
 ___
-***14.11.2024 by OE3WAS***
+***15.11.2024 by OE3WAS***
