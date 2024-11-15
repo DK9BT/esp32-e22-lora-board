@@ -9,8 +9,9 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 ### 1.1 Key-Components
 * **PCB V2.1.2**
 * **U1 = ESP32-DevKitC-V4**
-* **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm)
 * **U2 = OLED 0,96"**
+* **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm)
+
 
 **1.2 Einbau-Varianten für U1 = ESP32-DevKitC V4**  
 * **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden:  
