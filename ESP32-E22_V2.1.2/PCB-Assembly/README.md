@@ -37,5 +37,9 @@ Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehe
 * über **IPEX-SMA-Buchse Adapterkabel** oder **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) oder andere Varianten siehe [README](../README.md)  
 [img]  
 
+
+### 1.x Testlauf #1
+Das Online-Flash Tool hat auch eine Console. Chromium Browsers only https://oe1kfr.com/esptool/
+
 ___
 ***15.11.2024 by OE3WAS***
