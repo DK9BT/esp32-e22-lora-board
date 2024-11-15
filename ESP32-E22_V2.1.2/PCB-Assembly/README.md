@@ -33,8 +33,8 @@ Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehe
 * **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & **C3** (220..470µF, liegender Einbau) & **C4** (100nF)  
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
 
-### 1.6 Antenne
-* über **IPEX-SMA-Buchse Adapterkabel** oder **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite)  
+### 1.6 Varianten Antenne
+* über **IPEX-SMA-Buchse Adapterkabel** oder **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) oder andere Varianten siehe [README](../README.md)  
 [img]  
 
 ___
