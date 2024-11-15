@@ -54,5 +54,7 @@ Bei allen Varinten ist eine mechanische Entkopplung zwischen Gehäuse<>PCB gegeb
 ### 1.x Testlauf #1
 Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)
 
+
+Für weitere Dteails siehe auch [README](../README.md)  
 ___
 ***15.11.2024 by OE3WAS***
