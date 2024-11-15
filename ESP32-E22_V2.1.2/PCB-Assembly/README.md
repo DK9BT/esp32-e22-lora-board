@@ -37,7 +37,17 @@ Bei manchen OLEDs kann man noch die **I²C**-Adresse von **0x78** auf **0x7A** �
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
 
 ### 1.6 Varianten Antenne
-* über **IPEX-SMA-Buchse Adapterkabel** oder **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) oder andere Varianten siehe [README](../README.md)  
+* Das E22-Modul hat einen IPEX-Stecker. Hier kann eine Antenne angeschlossen werden über
+* * ein **IPEX-SMA-Buchse Adapterkabel** oder
+  * als Gehäusedurchführung eine dichte **U.FL IPEX <> N-Buchse** https://www.amazon.de/dp/B0C8J131PD oder
+  * Alternativ eine IPEX <> SMA-Einbaubuchse: ...
+ 
+* Beim Einbau der **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) über
+* * einen SMA-St <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden): https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
+  * eine SMA-Bu <> SMA-Bu:  
+https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
+
+Bei allen Varinten ist eine mechanische Entkopplung zwischen Gehäuse<>PCB gegeben.  
 [img]  
 
 
