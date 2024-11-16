@@ -39,6 +39,7 @@ Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte eine
 
 ### 1.6 User Button
 Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
+Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.  
 <img src="..\picass\Button.jpg" alt="Button" width="400">
 
 ### 1.7 Varianten Antenne
@@ -58,7 +59,7 @@ Bei allen Varianten ist eine mechanische Entkopplung zwischen Antenne<>Gehäuse<
 
 ### 1.x Testlauf #1
 Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
-Und läuft grundsätzlich, mit Minimalbestückung und noch ohne HF (E22).  
+Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
 <img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
 
 Für weitere Details siehe auch [README](../README.md)  
