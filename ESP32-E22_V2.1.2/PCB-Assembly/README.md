@@ -67,7 +67,7 @@ Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).
 
 
 ## 2) Spannungsversorgung
-Für die Spannungsversorgung gibt es verschiedene Möglichkeiten.  
+Für die Spannungsversorgung stehen mehrere Möglichkeiten zur Verfügung.  
 
 ### 2.1 USB-Micro via ESP32
 Die Spannungsversorgung kann über die USB-Mikro-Buchse des ESP32-Moduls erfolgen, wenn ein geeignetes USB-Netzteil verwendet wird, welches bis zu 2A liefern kann. Solche Netzteile werden z.B. auch für die Versorgung von RapberryPi u.a. verwendet.  
