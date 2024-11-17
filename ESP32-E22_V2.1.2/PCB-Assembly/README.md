@@ -95,16 +95,22 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 > [!NOTE]
 > Funktionsbeschreibung ...
 
+Weitere BT: D5, C5  
+
 Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.  
 <img src="..\picass\2-5_DC-DC.jpg" alt="DCDC" width="400">  
 > [!IMPORTANT]
 > Auf einem Steckbrett den DC/DC-Wandler mit dem Poti auf 5V Ausgangsspannung einstellen.
 
 > [!CAUTION]
-> Es ist nicht zu empfehlen, die ADJ-Leiterbahn zu unterbrechen und den 5V-Jumper zu löten, ausser man hat ein sehr gute Lupe und entsprechendes Werkzeug. Siehe https://protosupplies.com/product/mp2315-mini-adjustable-dc-dc-step-down-module/
+> Es ist nicht zu empfehlen, die ADJ-Leiterbahn zu unterbrechen und den 5V-Jumper zu löten, ausser man hat ein sehr gute Lupe (Mikroskop) und entsprechendes Schneidwerkzeug. Siehe https://protosupplies.com/product/mp2315-mini-adjustable-dc-dc-step-down-module/
 > <img src="..\picass\MP2315-Mini-Adjustable-DC-DC-Step-Down-Module-Jumpers.jpg" alt="DCDCjmp" width="150">  
 
-Weitere BT: J3, F1, D2, D4, D5, C5, C6  
+[img U4 eingelötet] & D2 auf Oberseite & J3  
+
+Weitere BT: C6, D4  
+Weitere BT: F1, D4  
+
 
 Für weitere Details siehe auch [README](../README.md)  
 ___
