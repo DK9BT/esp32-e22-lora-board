@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 - E22 Board")
-		(date "2024-11-05")
+		(date "2024-11-17")
 		(rev "V2.1.2")
 		(company "OE3WAS")
 	)
@@ -3927,24 +3927,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 -1.27 0)
+			(property "Reference" "U4"
+				(at -5.334 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Mini_DC-DC_12-24V_adjustable"
-				(at 2.54 -3.81 0)
+			(property "Value" "HW-613"
+				(at 2.286 -2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
+			(property "Footprint" "KiCad:HW-613"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4093,7 +4093,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 1.27 -16.51 90)
 					(length 2.54)
 					(name "EN"
@@ -5207,6 +5207,12 @@
 		(uuid "0670bcc1-5d6d-48ba-a309-336334e67361")
 	)
 	(junction
+		(at 80.01 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09f2de39-a627-4f15-9b13-a57d9f1a762a")
+	)
+	(junction
 		(at 31.75 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5235,12 +5241,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11083b38-ee00-4733-b538-9ae8fa556d1a")
-	)
-	(junction
-		(at 100.33 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "113dd679-0fba-4809-8f92-272a25dfd657")
 	)
 	(junction
 		(at 149.86 134.62)
@@ -5295,6 +5295,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2beddff0-2243-4b3d-a383-e008e4b361aa")
+	)
+	(junction
+		(at 96.52 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cfd57c3-2d10-4a7c-9597-219f22667167")
 	)
 	(junction
 		(at 180.34 83.82)
@@ -5439,6 +5445,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1efbe1a-0b1b-4714-8fe4-3a10c3083cd1")
+	)
+	(junction
+		(at 109.22 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8924b81-483d-4e8a-b8de-1d0283ab40c7")
 	)
 	(junction
 		(at 182.88 88.9)
@@ -5800,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 161.29) (xy 100.33 161.29)
+			(xy 46.99 161.29) (xy 96.52 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5830,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 186.69) (xy 100.33 186.69)
+			(xy 77.47 186.69) (xy 80.01 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5990,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 170.18) (xy 91.44 170.18)
+			(xy 87.63 170.18) (xy 90.17 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6167,6 +6179,16 @@
 			(type default)
 		)
 		(uuid "3cbcedbe-b169-43a3-af66-d72a11db7d62")
+	)
+	(wire
+		(pts
+			(xy 80.01 179.07) (xy 80.01 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d26281e-d862-45e9-b322-2c4daee1b003")
 	)
 	(wire
 		(pts
@@ -6480,6 +6502,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 161.29) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac47e7e-58ed-413b-b82b-12c8819b616f")
+	)
+	(wire
+		(pts
 			(xy 95.25 99.06) (xy 95.25 100.33)
 		)
 		(stroke
@@ -6580,7 +6612,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 156.21) (xy 100.33 161.29)
+			(xy 96.52 161.29) (xy 109.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fb1a37-7c97-4f83-a51e-424247b7e32b")
+	)
+	(wire
+		(pts
+			(xy 80.01 180.34) (xy 83.82 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcb185-faa2-4947-b5a1-a755ba68439c")
+	)
+	(wire
+		(pts
+			(xy 109.22 156.21) (xy 109.22 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6590,7 +6642,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 161.29) (xy 100.33 170.18)
+			(xy 96.52 161.29) (xy 96.52 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6657,6 +6709,16 @@
 			(type default)
 		)
 		(uuid "6ca79eb1-ce1f-4afb-bfe2-34d75ef51bda")
+	)
+	(wire
+		(pts
+			(xy 80.01 182.88) (xy 83.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6d6558-9355-4663-9904-f3afc0d88c64")
 	)
 	(wire
 		(pts
@@ -6757,6 +6819,16 @@
 			(type default)
 		)
 		(uuid "798ec386-7485-4b47-a880-3600e615a4f8")
+	)
+	(wire
+		(pts
+			(xy 80.01 186.69) (xy 100.33 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e26107-fb6f-45cc-a66a-d5dfc48b43b0")
 	)
 	(wire
 		(pts
@@ -7070,16 +7142,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 161.29) (xy 119.38 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cde64bb-c916-4be8-b707-c9582a7ca885")
-	)
-	(wire
-		(pts
 			(xy 177.8 101.6) (xy 185.42 101.6)
 		)
 		(stroke
@@ -7217,6 +7279,16 @@
 			(type default)
 		)
 		(uuid "aee02fe9-4731-4bab-9587-a2243293ba97")
+	)
+	(wire
+		(pts
+			(xy 80.01 182.88) (xy 80.01 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33be94b-cbb3-4182-8dc1-8e6a002bd209")
 	)
 	(wire
 		(pts
@@ -7780,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 170.18) (xy 100.33 170.18)
+			(xy 95.25 170.18) (xy 96.52 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +8357,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 93.98 170.18 180)
+		(at 92.71 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8293,7 +8365,7 @@
 		(dnp no)
 		(uuid "0419b4e2-56bd-41a0-99a2-6178dc970fd2")
 		(property "Reference" "D2"
-			(at 94.234 172.72 0)
+			(at 92.964 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8373,7 @@
 			)
 		)
 		(property "Value" "1N5817"
-			(at 94.488 174.752 0)
+			(at 93.218 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8381,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 93.98 170.18 90)
+			(at 92.71 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 170.18 90)
+			(at 92.71 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8399,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 93.98 170.18 0)
+			(at 92.71 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,11 +9136,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-DevKitC"
-			(at 102.87 99.06 0)
+		(property "Value" "ESP32-DevKitC V4"
+			(at 97.536 103.378 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -9295,7 +9369,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 156.21 0)
+		(at 109.22 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9303,7 +9377,7 @@
 		(dnp no)
 		(uuid "39975ed4-fd6d-424f-b78d-64a33e499e1c")
 		(property "Reference" "#PWR04"
-			(at 100.33 160.02 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9312,7 +9386,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.33 151.13 0)
+			(at 109.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 156.21 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 156.21 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 156.21 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,6 +10994,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 88.9 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dda6367-47e0-40c2-8a9c-7d5a10fe8c00")
+		(property "Reference" "J12"
+			(at 88.138 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 90.17 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "ext. Pwr.Off"
+			(at 95.504 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8339af7c-ea2b-453f-b166-bf357bc71971")
+		)
+		(pin "2"
+			(uuid "c4556c89-f59c-4739-9734-caaad66669a1")
+		)
+		(instances
+			(project "esp32-e22"
+				(path "/7ac59502-473d-4014-a9ef-f4cf3cefb926"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 52.07 172.72 180)
 		(unit 1)
@@ -11561,18 +11714,20 @@
 		(dnp no)
 		(uuid "ab39ada3-c361-4d99-8382-c95056a67e81")
 		(property "Reference" "U3"
-			(at 245.11 40.005 0)
+			(at 244.856 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "E22-40033S"
-			(at 244.856 42.926 0)
+		(property "Value" "E22-400M33S"
+			(at 241.808 39.116 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 			)
 		)
@@ -11849,7 +12004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
 			(at 61.595 180.34 0)
 			(effects
 				(font
