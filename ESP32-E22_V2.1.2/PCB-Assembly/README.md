@@ -78,7 +78,18 @@ Die dafür zuständigen BT sind: **USB-C BreakOut-Board, J2 (4-pol Stiftleiste),
 <ins>Funktion:</ins>  
 Die Widerstände **R3** & **R4** mit jeweils 5k1 signalisieren dem USB-Netzteils, dass es 5V / 3A liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, wenn mehrere Spannungsquellen angeschlossen wurden.  
 
-[img]...
+Die Widerstände **R3** & **R4** (je 5k1) auf der Rückseite bestücken und auf der Oberseite Lötpins auf Minimum kürzen.  
+<img src="..\picass\2-1_R3-R4.jpg" alt="R3-R4" width="400">  
+
+Die Diode **D1** und eine längere 4-pol Stiftleiste **J2** mit Gesamtlänge **15mm** auf der Oberseite bestücken.  
+Dann 2-3 Lagen Doppelklebepads zur Unterstützung des USB-C Adapter Boards aufbringen ...  
+<img src="..\picass\2-2_J2-D1.jpg" alt="J2-D1" width="400">  
+
+... und das USB-C Adapter Board aufkleben und verlöten. An die überstehende Stiftleiste kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
+<img src="..\picass\2-3_USB-C-Bu.jpg" alt="USB-Bu" width="400">  
+
+Die Versorgung über die USB-C-Buchse funktioniert.  
+<img src="..\picass\2-4_USB-C_ok.jpg" alt="USB-C_ok" width="400">  
 
 
 
