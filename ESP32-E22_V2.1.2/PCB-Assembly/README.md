@@ -65,6 +65,30 @@ Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Ha
 Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
 <img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
 
+
+## 2) Spannungsversorgung
+Für die Spannungsversorgung gibt es verschiedene Möglichkeiten.  
+
+### 2.1 USB-Micro via ESP32
+Die Spannungsversorgung kann über die USB-Mikro-Buchse des ESP32-Moduls erfolgen, wenn ein geeignetes USB-Netzteil verwendet wird, welches bis zu 2A liefern kann. Solche Netzteile werden z.B. auch für die Versorgung von RapberryPi u.a. verwendet.  
+
+### 2.2 Versorgung über USB-C
+Die dafür zuständigen BT sind: **USB-C BreakOut-Board, J2 (4-pol Stiftleiste), R3 & R4, D1**  
+
+<ins>Funktion:</ins>  
+Die Widerstände **R3** & **R4** mit jeweils 5k1 signalisieren dem USB-Netzteils, dass es 5V / 3A liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, wenn mehrere Spannungsquellen angeschlossen wurden.  
+
+[img]...
+
+
+
 Für weitere Details siehe auch [README](../README.md)  
+___
+# 99) Allgemeine Hinweise
+* Die Schaltung ist nach den gängigen Regeln der Technik konzipiert und hergestellt. Es wurde jedoch nicht geprüft ob allfällige Normen eingehalten werden.
+* Die hier angegebenen Hinweise sind lediglich eine Beschreibung einer Möglichkeit des Zusammenbaus.
+* Die Inbetriebnahme erfolgt eigenverantwortlich.
+* Ich weise auf die gesetzlichen Bestimmungen bez. Elektrogeräten, Funkanlagen u.ä. hin, die von jedem Anwender selber einzuhalten sind.
+
 ___
 ***15.11.2024 by OE3WAS***
