@@ -104,7 +104,7 @@ Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.
 > Auf einem Steckbrett den DC/DC-Wandler mit dem Poti auf 5V Ausgangsspannung einstellen.
 
 > [!CAUTION]
-> Es ist nicht zu empfehlen, die ADJ-Leiterbahn zu unterbrechen und den 5V-Jumper zu löten, ausser man hat ein sehr gute Lupe (Mikroskop) und entsprechendes Schneidwerkzeug. Siehe https://protosupplies.com/product/mp2315-mini-adjustable-dc-dc-step-down-module/
+> Es ist nicht zu empfehlen, die ADJ-Leiterbahn zu unterbrechen und den 5V-Jumper zu löten, ausser man hat ein sehr gute Lupe (Mikroskop) und entsprechendes Schneidwerkzeug. Siehe https://protosupplies.com/product/mp2315-mini-adjustable-dc-dc-step-down-module/  
 > <img src="..\picass\MP2315-Mini-Adjustable-DC-DC-Step-Down-Module-Jumpers.jpg" alt="DCDCjmp" width="150">  
 
 [img U4 eingelötet] & D2 auf Oberseite & J3  
@@ -114,6 +114,10 @@ Weitere BT: F1, D4
 
 
 Für weitere Details siehe auch [README](../README.md)  
+
+## 88) weitere Hinweise
+* **C2** ist bei Verwendung des **ESP32-DevKitC-V4** nicht erforderlich. Die Anschlüsse können für einen externen Reset-Taster verwendet werden.
+
 ___
 # 99) Allgemeine Hinweise
 * Die Schaltung ist nach den gängigen Regeln der Technik konzipiert und hergestellt. Es wurde jedoch nicht geprüft ob allfällige Normen eingehalten werden.
