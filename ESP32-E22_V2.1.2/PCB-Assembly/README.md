@@ -95,7 +95,8 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 > [!NOTE]
 > Funktionsbeschreibung ...
 
-Weitere BT: D5, C5  
+**D5** 1N4007 o.ä. & **C5** 100nF bestücken  
+<img src="..\picass\2-6_D5-C5.jpg" alt="D5C5" width="400">  
 
 Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.  
 <img src="..\picass\2-5_DC-DC.jpg" alt="DCDC" width="400">  
@@ -121,4 +122,4 @@ ___
 * Ich weise auf die gesetzlichen Bestimmungen bez. Elektrogeräten, Funkanlagen u.ä. hin, die von jedem Anwender selber einzuhalten sind.
 
 ___
-***17.11.2024 by OE3WAS***
+***:copyright: 17.11.2024 by OE3WAS***
