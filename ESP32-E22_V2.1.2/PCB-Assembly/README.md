@@ -115,7 +115,7 @@ Weitere BT: C6, D4
 Weitere BT: F1, D4  
 
 ### 2.4 Versorgung über DC/DC R-78B5.0-2.0
-Statt dem günstigen DC/DC in 2.3 kann auch ein handeslsüblicher, aber auch teurerer Schaltregler z.B. der RECOM R-78B5.0-2.0 verwendet werden.  
+Statt dem günstigen DC/DC in [2.3](https://github.com/DK9BT/esp32-e22-lora-board/blob/main/ESP32-E22_V2.1.2/PCB-Assembly/README.md#23-versorgung-%C3%BCber-dcdc-hw-613) kann auch ein handeslsüblicher, aber auch teurerer Schaltregler z.B. der RECOM R-78B5.0-2.0 verwendet werden.  
 https://at.rs-online.com/web/p/schaltregler/1392959  
 https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-1-st-2887420.html  
 [img 3D]
