@@ -14,7 +14,10 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 
 ### 1.2 Einbau-Varianten für U1 = ESP32-DevKitC V4
-Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch die **V1**- od. **V4**-Module verwendet werden. Die Unterschiede werden an anderer Stelle detailiert dargestellt. [TODO]  
+Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch die **V1**- od. **V4**-Module verwendet werden.  
+> [!NOTE]
+> Die Unterschiede werden an anderer Stelle detailiert dargestellt. [!TODO]
+
 * **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden **je 2x 19-pol**:  
 <img src="..\picass\ESP32_BuLeiste.jpg" alt="ESP32_BuLeiste" width="300">  
 
@@ -31,18 +34,24 @@ Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte eine
 <img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">  
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
 
-### 1.4 Einbau-Varianten für U3 = E22-fffM3xS
+### 1.4 User Button
+Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
+Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.  
+<img src="..\picass\Button.jpg" alt="Button" width="400">
+
+### 1.5 Testlauf #1
+Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
+Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
+<img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
+
+### 1.6 Einbau-Varianten für U3 = E22-fffM3xS
 * **a)** Das E22-Modul ist für SMD-Direktlötung vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.
 * **b)** Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich Stifte und Buchsen im Raster 2,54 zu verwenden.  
 
 zugehörige BT: U3 + 2x8p + 2x3p Pfosten-Buchsen + 2x8p + 2x3p Pfostenstecker gewinkelt, **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
 
-### 1.5 User Button
-Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
-Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.  
-<img src="..\picass\Button.jpg" alt="Button" width="400">
 
-### 1.6 Varianten Antenne
+### 1.7 Varianten Antenne
 * Das E22-Modul hat einen IPEX-Stecker. Hier kann eine Antenne angeschlossen werden über
   * ein **IPEX-SMA-Buchse Adapterkabel** oder
   * als Gehäusedurchführung eine dichte **U.FL IPEX <> N-Buchse** https://www.amazon.de/dp/B0C8J131PD oder
@@ -57,11 +66,6 @@ https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse
 Bei allen Varianten ist eine mechanische Entkopplung zwischen Antenne<>Gehäuse<>PCB gegeben.  
 [img]  
 
-
-### 1.x Testlauf #1
-Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
-Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
-<img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
 
 
 ## 2) Spannungsversorgung
@@ -91,7 +95,7 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 
 ### 2.3 Versorgung über DC/DC HW-613
 > [!NOTE]
-> Funktionsbeschreibung ...
+> Funktionsbeschreibung [!TODO]
 
 **D5** 1N4007 o.ä. & **C5** 100nF bestücken  
 <img src="..\picass\2-6_D5-C5.jpg" alt="D5C5" width="400">  
