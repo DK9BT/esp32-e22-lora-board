@@ -15,39 +15,34 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 ### 1.2 Einbau-Varianten für U1 = ESP32-DevKitC V4
 Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch die **V1**- od. **V4**-Module verwendet werden. Die Unterschiede werden an anderer Stelle detailiert dargestellt. [TODO]  
-* **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden:  
+* **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden **je 2x 19-pol**:  
 <img src="..\picass\ESP32_BuLeiste.jpg" alt="ESP32_BuLeiste" width="300">  
 
 * **b)** Es können aber auch IC-Sockelstifte & Sockelbuchsen verwendet werden. Dies hat den Vorteil, dass das ESP32-Modul problemlos auf ein Steckbrett eingesteckt werden kann.  
 <img src="..\picass\ESP32_IC-Sockel.jpg" alt="ESP32_IC-Sockel" width="300">  
 
-### 1.3 Einbau-Varianten für E22
+### 1.3 OLED 0,96"
+Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehen, die mit **2x 4-pol Bu-Streifen** bestückt werden.  
+Die OLED gibt es in grundsätzlich 2 verschiedenen Pin-Anordnungen. Die angegebene (**VCC-GND-SCL-SDA**) ist bereits auf der PCB verdrahtet. Falls man VCC <> GND umdrehen möchte, dann sind auf der Rückseiten 2 Leiterbahnen zu unterbrechen und 2 Drahtbrücken herzustellen (JP1 & JP2).  
+Bei manchen OLEDs (rechts im Bild) kann man noch die **I²C**-Adresse von **`0x78`** auf **`0x7A`** ändern.  
+Mit einem I²C-Scanner werden **`0x78` >> `0x3C`** und **`0x7A` >> `0x3D`** erkannt (7-Bit Format).  
+Zusätzlich können auf manchen Modulen direkt die **VCC<>GND** durch die **J1/J2/J3/J4** im Foto rechts vertauscht werden.  
+Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).
+<img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">  
+<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
+
+### 1.4 Einbau-Varianten für U3 = E22-fffM3xS
 * **a)** Das E22-Modul ist für SMD-Direktlötung vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.
-* **b)** Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich IC-Sockelstifte & IC-Sockel im Raster 2,54 zu verwenden.  
+* **b)** Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich Stifte und Buchsen im Raster 2,54 zu verwenden.  
 
 zugehörige BT: U3 + 2x8p + 2x3p Pfosten-Buchsen + 2x8p + 2x3p Pfostenstecker gewinkelt, **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
 
-[img]   
-
-### 1.4 OLED 0,96"
-Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehen, die mit 4-pol Bu-Streifen bestückt werden.  
-Die OLED gibt es in grundsätzlich 2 verschiedenen Pin-Anordnungen. Die angegebene (**VCC-GND-SCL-SDA**) ist bereits auf der PCB verdrahtet. Falls man VCC <> GND umdrehen möchte, dann sind auf der Rückseiten 2 Leiterbahnen zu unterbrechen und 2 Drahtbrücken herzustellen (JP1 & JP2).  
-Bei manchen OLEDs (rechts im Bild) kann man noch die **I²C**-Adresse von **0x78** auf **0x7A** ändern.  
-Mit einem I²C-Scanner werden **`0x78` >> `0x3C`** und **`0x7A` >> `0x3D`** erkannt.  
-Zusätzlich können auf manchen Modulen direkt die **VCC<>GND** durch die **J1/J2/J3/J4** im Foto rechts vertauscht werden.  
-Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).
-<img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">
-
-### 1.5 Kleinteile
-* **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & ...  
-<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
-
-### 1.6 User Button
+### 1.5 User Button
 Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
 Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.  
 <img src="..\picass\Button.jpg" alt="Button" width="400">
 
-### 1.7 Varianten Antenne
+### 1.6 Varianten Antenne
 * Das E22-Modul hat einen IPEX-Stecker. Hier kann eine Antenne angeschlossen werden über
   * ein **IPEX-SMA-Buchse Adapterkabel** oder
   * als Gehäusedurchführung eine dichte **U.FL IPEX <> N-Buchse** https://www.amazon.de/dp/B0C8J131PD oder
