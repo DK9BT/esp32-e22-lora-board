@@ -496,7 +496,7 @@
       "gencad": "",
       "idf": "esp32-e22.emn",
       "netlist": "",
-      "plot": "",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "esp32-e22.step",
