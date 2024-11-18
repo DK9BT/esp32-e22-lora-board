@@ -24,7 +24,9 @@ Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch 
 ### 1.3 Einbau-Varianten für E22
 * **a)** Das E22-Modul ist für SMD-Direktlötung vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.
 * **b)** Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich IC-Sockelstifte & IC-Sockel im Raster 2,54 zu verwenden.  
-...  
+
+zugehörige BT: U3 + 2x8p + 2x3p Pfosten-Buchsen + 2x8p + 2x3p Pfostenstecker gewinkelt, **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
+
 [img]   
 
 ### 1.4 OLED 0,96"
@@ -37,7 +39,7 @@ Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte eine
 <img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">
 
 ### 1.5 Kleinteile
-* **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & **C3** (220..470µF, liegender Einbau) & **C4** (100nF)  
+* **Buchsenleisten** für U1: **2x 19-pol** & U2: **2x 4-pol** & ...  
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
 
 ### 1.6 User Button
@@ -53,6 +55,7 @@ Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.
  
 * Beim Einbau der **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) über
   * einen SMA-St <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden): https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
+  * [img]
   * eine SMA-Bu <> SMA-Bu:  
 https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
 
