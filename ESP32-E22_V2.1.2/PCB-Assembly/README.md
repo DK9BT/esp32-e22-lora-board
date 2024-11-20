@@ -14,7 +14,7 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 
 ### 1.2 Einbau-Varianten für U3 = E22-fffM3xS
 > [!NOTE]
-> Dieses BT sollte als Erstes bestücken, um gut an die Lötstellen zu kommen.
+> **Dieses BT sollte als Erstes bestückt werden, um gut an die Lötstellen zu kommen.**
 
 **a)** Das E22-Modul ist für **SMD-Direktlötung** vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.  
 <img src="..\picass\1-1_E22-direkt.jpg" alt="E22-direkt" width="400">  
@@ -22,10 +22,17 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 **b)** **E22-Modul auf Sockel**  
 Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich Stifte und Buchsen im RM 2,54 zu verwenden.  
 Bei dieser Art der Bestückung wird sozusagen ein Stecksockel aus einfachen, günstigen und handelsüblichen Teilen hergestellt.  
+In einer späteren Version wird es eine Sockeladapterplatine geben und eine modifizierte PCB.
 
 <ins>**Schritt 1:**</ins> Durchkontaktierte Lochrasterplatte 35x27mm (13x10 Löcher)  
 <img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
 
+<ins>**Schritt 2:**</ins> 
+<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+
+<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+
+<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
 
 zugehörige BT: 2x8p + 2x3p Pfosten-Buchsen + 2x8p + 2x3p Pfostenstecker gewinkelt, **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
 
