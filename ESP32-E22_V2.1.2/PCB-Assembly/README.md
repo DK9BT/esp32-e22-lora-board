@@ -27,14 +27,21 @@ In einer späteren Version wird es eine Sockeladapterplatine geben und eine modi
 <ins>**Schritt 1:**</ins> Durchkontaktierte Lochrasterplatte 35x27mm (13x10 Löcher)  
 <img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
 
-<ins>**Schritt 2:**</ins> 
-<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+<ins>**Schritt 2:**</ins> 2x 8pol + 2x 3pol Pfosten-Buchsen bestücken und mit Stiftleisten stabilisieren  
+<img src="..\picass\1-2_E22_SocBu.jpg" alt="E22_SocBu" width="300">  
 
-<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+<ins>**Schritt 3:**</ins> verlöten und Lötstellen plan feilen, damit das E22-Modul plan aufliegen kann und gut verlötbar ist.  
+<img src="..\picass\1-2_E22_Soctop.jpg" alt="E22_Soctop" width="300">  
+<img src="..\picass\1-2_E22_Socbot.jpg" alt="E22_Socbot" width="300">  
 
-<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+<ins>**Schritt 4:**</ins> 2x 8pol + 2x 3pol Pfostenstecker gewinkelt das kürzere Ende noch weiter kürzen.  
+<img src="..\picass\1-2_E22_SMD90.jpg" alt="E22_SMD90" width="300">  
 
-zugehörige BT: 2x8p + 2x3p Pfosten-Buchsen + 2x8p + 2x3p Pfostenstecker gewinkelt, **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
+<ins>**Schritt 5:**</ins> die so vorbereiteten Stiftleisten zur Stabilisierung in die Pfosten-Buchsen stecken  
+
+und auf die PCB wie ein SMD-BT auflöten
+
+weiter zugehörige BT:  **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
 
 
 ### 1.3 Einbau-Varianten für U1 = ESP32-DevKitC V4
