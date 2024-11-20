@@ -20,7 +20,7 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 <img src="..\picass\1-1_E22-direkt.jpg" alt="E22-direkt" width="400">  
 
 **b)** **E22-Modul auf Sockel**  
-Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich Stifte und Buchsen im RM 2,54 zu verwenden.  
+Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich, Stifte und Buchsen im RM 2,54 zu verwenden.  
 Bei dieser Art der Bestückung wird sozusagen ein Stecksockel aus einfachen, günstigen und handelsüblichen Teilen hergestellt.  
 In einer späteren Version wird es eine Sockeladapterplatine geben und eine modifizierte PCB.
 
