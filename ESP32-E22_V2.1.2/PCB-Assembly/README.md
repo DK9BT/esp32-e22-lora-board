@@ -31,8 +31,7 @@ In einer späteren Version wird es eine Sockeladapterplatine geben und eine modi
 <img src="..\picass\1-2_E22_SocBu.jpg" alt="E22_SocBu" width="300">  
 
 <ins>**Schritt 3:**</ins> verlöten und Lötstellen plan feilen, damit das E22-Modul plan aufliegen kann und gut verlötbar ist.  
-<img src="..\picass\1-2_E22_Soctop.jpg" alt="E22_Soctop" width="300">  
-<img src="..\picass\1-2_E22_Socbot.jpg" alt="E22_Socbot" width="300">  
+<img src="..\picass\1-2_E22_Soctop.jpg" alt="E22_Soctop" width="300"><img src="..\picass\1-2_E22_Socbot.jpg" alt="E22_Socbot" width="300">  
 
 <ins>**Schritt 4:**</ins> 2x 8pol + 2x 3pol Pfostenstecker gewinkelt das kürzere Ende noch weiter kürzen.  
 <img src="..\picass\1-2_E22_SMD90.jpg" alt="E22_SMD90" width="300">  
