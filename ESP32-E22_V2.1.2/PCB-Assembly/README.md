@@ -145,17 +145,30 @@ https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-
 [img 3D]
 
 ### 2.5 Einbau in ein Gehäuse
+Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524  
+Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340515  
+Gehäuse Maßzeichnung: https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf  
+
 * Das Gehäuse verfügt über 8 Stk. Sacklöcher Ø3,2x4. Die in den Ecken sind für die Befestigung der PCB vorgesehen. Die Sacklöcher auf den Seiten können für die Befestigung eines 3D-Druck Einbauteils verwendet werden.
 * Darin können **M2x4x3,5 Einpressmutter** eingeschmolzen werden, wenn keine Schraubklemme+DC/DC-Wandler verwendet werden.
 * Bei Verwendung der Schraubklemme + DC/DC-Wandler, der auf der Rückseite der PCB platziert ist, muss ein größerer Abstand der PCB vom Gehäuseboden durch Verwendung von **M2x6x3,5 Einpressmuttern** eingehalten werden.
 * Alternativ können auch Abstandsröhrchen L≥1,5mm verwendet werden (z.B. Ms-Rohr Ø3) und M2x8 Schrauben.
 * !!! für den erhöhten Einbau der PCB ins Gehäuse wird es ein 3D-Druck-Teil geben!
-* Bei anderem Bedarf können aber auch die Befestigungsbohrungen auf der PCB aufgebohrt werden.
+* Bei anderem Bedarf können aber auch die Befestigungsbohrungen auf der PCB aufgebohrt werden.  
+![Einpressbuchse_M2x4x3,5](https://github.com/user-attachments/assets/9b76f58b-3f03-4ac9-bbe7-2f518731cc2d)  
 
-[img]Einpressbuchse_M2x4x3,5
+Für das wasserdichte Gehäuse ist eine Druckausgleichsmembran zu empfehlen, damit das Wasser auch wieder herausdiffundieren kann. Sonst steht irgendwann die Leiterplatte unter Wasser.  
+z.B. https://shop.bb-sensors.com/Druck/Drucksensoren/Druckausgleich-Membran-VPE-12-Stueck.html  
+oder https://www.reichelt.at/at/de/shop/produkt/druckausgleichselement_m12_schwarz_2_stueck-371154  
+oder https://www.amazon.de/dp/B088QJG676
 
-___
-Für weitere Details siehe auch [README](../README.md)  
+Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.  
+
+### 2.6 Programmierkabel für ESP32
+Dieses könnte wegen der nur 20cm im Gehäuse verbleiben:
+https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766
+Oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH7JRD  
+
 
 ## 98) weitere Hinweise
 * **C2** ist bei Verwendung des **ESP32-DevKitC-V4** nicht erforderlich. Die Anschlüsse können für einen externen Reset-Taster verwendet werden.
