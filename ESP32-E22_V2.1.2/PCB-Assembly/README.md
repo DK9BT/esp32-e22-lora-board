@@ -1,10 +1,10 @@
 # Bestückungshinweise PCB V2.1.2
 
-spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2  
+Bestückungsreihenfolge, Varianten und Inbetriebnahme des PCB V2.1.2  
 
 ## 1) Minimalbestückung
 * Die folgenden BT sind das absolute Minimum für die grundsätzliche Funktion.
-* Über die USB-mikro Buchse am ESP32 wird auch das E22-Modul versorgt. Voraussetzung ist eine passenden USB-Netzgerät, welches mind. 2A bereitstellen kann.
+* Über die USB-mikro Buchse am ESP32 kann auch das E22-Modul versorgt werden, wenn eine passenden USB-Netzgerät verwendet wird, welches mind. 2A bereitstellen kann.
 
 ### 1.1 Key-Components
 * **PCB V2.1.2**
@@ -16,29 +16,25 @@ spezielle Details und Varianten bez. der Bestückung des PCB V2.1.2
 > [!NOTE]
 > **Dieses BT sollte als Erstes bestückt werden, um gut an die Lötstellen zu kommen.**
 
-**a)** Das E22-Modul ist für **SMD-Direktlötung** vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.  
+**a)** Das **E22-Modul** ist für **SMD-Direktlötung** vorgesehen. Der NT ist, dass es bei einem Defekt schwieriger abzulöten ist.  
 <img src="..\picass\1-1_E22-direkt.jpg" alt="E22-direkt" width="400">  
 
-**b)** **E22-Modul auf Sockel**  
+**b)** **E22-Modul auf Sockel (Variante für PCB V2.1.2)**  
 Obwohl der Pin-Abstand des E22-Moduls 2,50mm beträgt, ist es trotzdem möglich, Stifte und Buchsen im RM 2,54 zu verwenden.  
 Bei dieser Art der Bestückung wird sozusagen ein Stecksockel aus einfachen, günstigen und handelsüblichen Teilen hergestellt.  
 In einer späteren Version wird es eine Sockeladapterplatine geben und eine modifizierte PCB.
 
-<ins>**Schritt 1:**</ins> Durchkontaktierte Lochrasterplatte 35x27mm (13x10 Löcher)  
-<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300">  
+<ins>**Schritt 1:**</ins> Durchkontaktierte Lochrasterplatte 35x27mm (13x10 Löcher) mit **2x 8pol** + **2x 3pol Pfosten-Buchsen** bestücken und mit Stiftleisten stabilisieren.  
+<img src="..\picass\1-2_E22_sockelPCB.jpg" alt="E22_sockelPCB" width="300"><img src="..\picass\1-2_E22_SocBu.jpg" alt="E22_SocBu" width="300">  
 
-<ins>**Schritt 2:**</ins> 2x 8pol + 2x 3pol Pfosten-Buchsen bestücken und mit Stiftleisten stabilisieren  
-<img src="..\picass\1-2_E22_SocBu.jpg" alt="E22_SocBu" width="300">  
-
-<ins>**Schritt 3:**</ins> verlöten und Lötstellen plan feilen, damit das E22-Modul plan aufliegen kann und gut verlötbar ist.  
+<ins>**Schritt 2:**</ins> verlöten und Lötstellen plan feilen, damit das E22-Modul plan aufliegen kann und gut verlötbar ist.  
 <img src="..\picass\1-2_E22_Soctop.jpg" alt="E22_Soctop" width="300"><img src="..\picass\1-2_E22_Socbot.jpg" alt="E22_Socbot" width="300">  
 
-<ins>**Schritt 4:**</ins> 2x 8pol + 2x 3pol Pfostenstecker gewinkelt das kürzere Ende noch weiter kürzen.  
-<img src="..\picass\1-2_E22_SMD90.jpg" alt="E22_SMD90" width="300">  
+<ins>**Schritt 3:**</ins> **2x 8pol** + **2x 3pol Pfostenstecker gewinkelt** zur Stabilisierung in die Pfosten-Buchsen stecken und das kürzere Ende noch weiter kürzen.  
+<img src="..\picass\1-2_E22_SMD90.jpg" alt="E22_SMD90" width="300"><img src="..\picass\1-2_E22_SMDa.jpg" alt="E22_SMDa" width="300">  
 
-<ins>**Schritt 5:**</ins> die so vorbereiteten Stiftleisten zur Stabilisierung in die Pfosten-Buchsen stecken  
-
-und auf die PCB wie ein SMD-BT auflöten
+<ins>**Schritt 4:**</ins> auf die PCB wie ein SMD-BT auflöten.
+<img src="..\picass\1-2_E22_SMDb.jpg" alt="E22_SMDb" width="300">  
 
 weiter zugehörige BT:  **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
 
