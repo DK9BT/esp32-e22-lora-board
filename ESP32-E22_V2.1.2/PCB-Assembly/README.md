@@ -58,7 +58,8 @@ Mit einem I²C-Scanner werden **`0x78` >> `0x3C`** und **`0x7A` >> `0x3D`** erka
 Zusätzlich können auf manchen Modulen direkt die **VCC<>GND** durch die **J1/J2/J3/J4** im Foto rechts vertauscht werden.  
 Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).
 <img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">  
-<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500"><img src="..\picass\1-4_OLEDfix.jpg" alt="OLEDfix" width="500">
+Das OLED-Board kann über eine Abstandshülse Ø4x11 mit M2 Gewindebohrung beidseits mit M2x5 Schrauben auf dem PCB mechanisch fixiert werden.  
+<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500"><img src="..\picass\1-4_OLEDfix.jpg" alt="OLEDfix" width="300">
 
 ### 1.5 User Button
 Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
@@ -86,7 +87,6 @@ Bei allen Varianten ist eine mechanische Entkopplung zwischen Antenne<>Gehäuse<
 [img]  
 
 
-
 ## 2) Spannungsversorgung
 Für die Spannungsversorgung stehen mehrere Möglichkeiten zur Verfügung.  
 
@@ -98,7 +98,7 @@ Das **USB-C BreakOut-Board** mit der stehenden USB-C Buchse ermöglicht ein leic
 
 <ins>**Funktion:**</ins>  
 Für USB-C PD (Power Delivery) ist ein Kommunikations-IC an CC1 & CC2 erforderlich.
-Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 wird der Strom "eingestellt". Die Widerstände **R3** & **R4** mit jeweils **5k1** signalisieren dem USB-Netzteils, dass es **5V/3A** liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, falls mehrere Spannungsquellen angeschlossen wurden.  
+Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 wird der Strom "eingestellt". Die Widerstände **R3** & **R4** mit jeweils **5k1** signalisieren dem USB-Netzteils, dass es **5V/3A** liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, falls mehrere Spannungsquellen angeschlossen sind.  
 
 <ins>**Schritt 1:**</ins> Die Widerstände **R3** & **R4** (je 5k1) auf der Rückseite bestücken und auf der Oberseite Lötpins auf ein Minimum kürzen.  
 <img src="..\picass\2-1_R3-R4.jpg" alt="R3-R4" width="400">  
@@ -112,6 +112,7 @@ Dann 2-3 Lagen Doppelklebepads zur Unterstützung des USB-C Adapter Boards aufbr
 
 Die Versorgung über die USB-C-Buchse funktioniert.  
 <img src="..\picass\2-4_USB-C_ok.jpg" alt="USB-C_ok" width="400">  
+
 
 ### 2.3 Versorgung über DC/DC HW-613
 > [!NOTE]
@@ -134,7 +135,7 @@ Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.
 
 Weitere BT: C6, D4  
 Weitere BT: F1, D4  
-• Zusätzlich ist eine Feinsicherung und eine Schutzdiode gegen Verpolung eingebaut worden.  
+• Zusätzlich ist eine **2A** Feinsicherung **F1** und eine Schutzdiode **D5** (1N4004..1N007) gegen Verpolung eingebaut.  
 • Die Transient Voltage Suppressor Diode **D4** (alternativ **D3**) schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA
 
 ### 2.4 Versorgung über DC/DC R-78B5.0-2.0
@@ -142,6 +143,17 @@ Statt dem günstigen DC/DC in [2.3](https://github.com/DK9BT/esp32-e22-lora-boar
 https://at.rs-online.com/web/p/schaltregler/1392959  
 https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-1-st-2887420.html  
 [img 3D]
+
+### 2.5 Einbau in ein Gehäuse
+* Das Gehäuse verfügt über 8 Stk. Sacklöcher Ø3,2x4. Die in den Ecken sind für die Befestigung der PCB vorgesehen. Die Sacklöcher auf den Seiten können für die Befestigung eines 3D-Druck Einbauteils verwendet werden.
+* Darin können **M2x4x3,5 Einpressmutter** eingeschmolzen werden, wenn keine Schraubklemme+DC/DC-Wandler verwendet werden.
+* Bei Verwendung der Schraubklemme + DC/DC-Wandler, der auf der Rückseite der PCB platziert ist, muss ein größerer Abstand der PCB vom Gehäuseboden durch Verwendung von **M2x6x3,5 Einpressmuttern** eingehalten werden.
+* Alternativ können auch Abstandsröhrchen L≥1,5mm verwendet werden (z.B. Ms-Rohr Ø3) und M2x8 Schrauben.
+* !!! für den erhöhten Einbau der PCB ins Gehäuse wird es ein 3D-Druck-Teil geben!
+* Bei anderem Bedarf können aber auch die Befestigungsbohrungen auf der PCB aufgebohrt werden.
+
+[img]Einpressbuchse_M2x4x3,5
+
 ___
 Für weitere Details siehe auch [README](../README.md)  
 
