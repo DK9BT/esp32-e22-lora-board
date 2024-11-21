@@ -13,18 +13,6 @@ https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_i
 Gehäuse Maßzeichnung:
 https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf
 
-### Erläuterung zur Schutzbeschaltung
-• Die Transient Voltage Suppressor Diode schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA  
-• Die 2 Schottky-Dioden entkoppeln die Versorgungseingänge.
-
-Wenn das E22-Modul über das ESP32-Board versorgt wird, dann ist auch eine Schottky-Diode im Spannungspfad, aber es können u.U. über den USB-µ Stecker nicht die zusätzlich zum ESP32-Board erforderlichen 650mA für den E22 beim Senden geliefert werden.
-
-Bei Versorgung über externe USB-C ist ebenso eine Schottky-Diode zur Entkopplung, bringt aber den Vorteil der höheren Stromverfügbarkeit und robusteren USB-C Verbinder. (nom. 5V/3A)
-
-Bei **Versorgung über ein externes Netzgerät** über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des **DC/DC-Wandler-Boards HW-613** (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und einstellbare variable Ausgangsspannung oder fixe durch Lötbrücken. Zusätzlich ist eine Feinsicherung und eine Schutzdiode gegen Verpolung eingebaut worden.
-
-Für genauere Infos siehe die entsprechenden Datenblätter der Bauteile.
-
 ### Erläuterungen zum Gehäuseeinbau:
 • Das Gehäuse verfügt über 8 Stk. Sacklöcher Ø3,2x4. Die in den Ecken sind für die Befestigung der PCB vorgesehen. Die Sacklöcher auf den Seiten können für die Befestigung eines 3D-Druck Einbauteils verwendet werden.   
 • Darin können M2x4x3,5 Einpressmutter eingeschmolzen werden, wenn **keine** Schraubklemme+DC/DC-Wandler verwendet werden.  
