@@ -165,9 +165,9 @@ oder https://www.amazon.de/dp/B088QJG676
 Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.  
 
 ### 2.6 Programmierkabel für ESP32
-Dieses könnte wegen der nur 20cm im Gehäuse verbleiben:
-https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766
-Oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH7JRD  
+Dieses könnte wegen der nur 20cm im Gehäuse verbleiben:  
+https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766  
+oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH7JRD  
 
 
 ## 98) weitere Hinweise
