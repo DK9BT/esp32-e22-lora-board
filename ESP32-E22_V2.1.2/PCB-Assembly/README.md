@@ -116,6 +116,7 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 ### 2.3 Versorgung über DC/DC HW-613
 > [!NOTE]
 > Funktionsbeschreibung [!TODO]
+Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des DC/DC-Wandler-Boards HW-613 (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und einstellbare variable Ausgangsspannung oder fixe durch Lötbrücken.  
 
 **D5** 1N4007 o.ä. & **C5** 100nF bestücken  
 <img src="..\picass\2-6_D5-C5.jpg" alt="D5C5" width="400">  
@@ -133,6 +134,8 @@ Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.
 
 Weitere BT: C6, D4  
 Weitere BT: F1, D4  
+• Zusätzlich ist eine Feinsicherung und eine Schutzdiode gegen Verpolung eingebaut worden.  
+• Die Transient Voltage Suppressor Diode **D4** (alternativ **D3**) schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA
 
 ### 2.4 Versorgung über DC/DC R-78B5.0-2.0
 Statt dem günstigen DC/DC in [2.3](https://github.com/DK9BT/esp32-e22-lora-board/blob/main/ESP32-E22_V2.1.2/PCB-Assembly/README.md#23-versorgung-%C3%BCber-dcdc-hw-613) kann auch ein handeslsüblicher, aber auch teurerer Schaltregler z.B. der RECOM R-78B5.0-2.0 verwendet werden.  
