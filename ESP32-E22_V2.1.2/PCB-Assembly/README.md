@@ -33,10 +33,10 @@ In einer späteren Version wird es eine Sockeladapterplatine geben und eine modi
 <ins>**Schritt 3:**</ins> **2x 8pol** + **2x 3pol Pfostenstecker gewinkelt** zur Stabilisierung in die Pfosten-Buchsen stecken und das kürzere Ende noch weiter kürzen.  
 <img src="..\picass\1-2_E22_SMD90.jpg" alt="E22_SMD90" width="300"><img src="..\picass\1-2_E22_SMDa.jpg" alt="E22_SMDa" width="300">  
 
-<ins>**Schritt 4:**</ins> auf die PCB wie ein SMD-BT auflöten.
+<ins>**Schritt 4:**</ins> auf die PCB wie ein SMD-BT auflöten.  
 <img src="..\picass\1-2_E22_SMDb.jpg" alt="E22_SMDb" width="300">  
 
-weiter zugehörige BT:  **C3** (220..470µF, liegender Einbau) & **C4** (100nF)
+<ins>**Schritt 5:**</ins> **C3** (220..470µF, liegender Einbau) & **C4** (100nF) bestücken.
 
 
 ### 1.3 Einbau-Varianten für U1 = ESP32-DevKitC V4
@@ -94,19 +94,20 @@ Für die Spannungsversorgung stehen mehrere Möglichkeiten zur Verfügung.
 Die Spannungsversorgung kann über die USB-Mikro-Buchse des ESP32-Moduls erfolgen, wenn ein geeignetes USB-Netzteil verwendet wird, welches bis zu 2A liefern kann. Solche Netzteile werden z.B. auch für die Versorgung von RapberryPi u.a. verwendet.  
 
 ### 2.2 Versorgung über USB-C
-Die dafür zuständigen BT sind: **USB-C BreakOut-Board, J2 (4-pol Stiftleiste), R3 & R4, D1**  
+Das **USB-C BreakOut-Board** mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung, speziell bei Einbau in ein Gehäuse. https://de.aliexpress.com/item/1005007821332638.html  
 
-<ins>Funktion:</ins>  
-Die Widerstände **R3** & **R4** mit jeweils 5k1 signalisieren dem USB-Netzteils, dass es 5V / 3A liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, wenn mehrere Spannungsquellen angeschlossen wurden.  
+<ins>**Funktion:**</ins>  
+Für USB-C PD (Power Delivery) ist ein Kommunikations-IC an CC1 & CC2 erforderlich.
+Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 wird der Strom "eingestellt". Die Widerstände **R3** & **R4** mit jeweils **5k1** signalisieren dem USB-Netzteils, dass es **5V/3A** liefern darf. Die Schottky-Diode **D1** verhindert eine Rückspeisung, falls mehrere Spannungsquellen angeschlossen wurden.  
 
-Die Widerstände **R3** & **R4** (je 5k1) auf der Rückseite bestücken und auf der Oberseite Lötpins auf Minimum kürzen.  
+<ins>**Schritt 1:**</ins> Die Widerstände **R3** & **R4** (je 5k1) auf der Rückseite bestücken und auf der Oberseite Lötpins auf ein Minimum kürzen.  
 <img src="..\picass\2-1_R3-R4.jpg" alt="R3-R4" width="400">  
 
-Die Diode **D1** und eine längere 4-pol Stiftleiste **J2** mit Gesamtlänge **15mm** auf der Oberseite bestücken.  
+<ins>**Schritt 2:**</ins> Die Diode **D1** und eine längere **4-pol** Stiftleiste **J2** mit Gesamtlänge **15mm** auf der Oberseite bestücken.  
 Dann 2-3 Lagen Doppelklebepads zur Unterstützung des USB-C Adapter Boards aufbringen ...  
 <img src="..\picass\2-2_J2-D1.jpg" alt="J2-D1" width="400">  
 
-... und das USB-C Adapter Board aufkleben und verlöten. An die überstehende Stiftleiste kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
+<ins>**Schritt 3:**</ins> das USB-C Adapter Board aufkleben und verlöten. An die überstehende Stiftleiste kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
 <img src="..\picass\2-3_USB-C-Bu.jpg" alt="USB-Bu" width="400">  
 
 Die Versorgung über die USB-C-Buchse funktioniert.  
@@ -141,7 +142,7 @@ https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-
 ___
 Für weitere Details siehe auch [README](../README.md)  
 
-## 88) weitere Hinweise
+## 98) weitere Hinweise
 * **C2** ist bei Verwendung des **ESP32-DevKitC-V4** nicht erforderlich. Die Anschlüsse können für einen externen Reset-Taster verwendet werden.
 
 ___
