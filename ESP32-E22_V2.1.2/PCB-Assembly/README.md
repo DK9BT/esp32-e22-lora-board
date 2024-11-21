@@ -58,7 +58,7 @@ Mit einem I²C-Scanner werden **`0x78` >> `0x3C`** und **`0x7A` >> `0x3D`** erka
 Zusätzlich können auf manchen Modulen direkt die **VCC<>GND** durch die **J1/J2/J3/J4** im Foto rechts vertauscht werden.  
 Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).
 <img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">  
-<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500">
+<img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500"><img src="..\picass\1-4_OLEDfix.jpg" alt="OLEDfix" width="500">
 
 ### 1.5 User Button
 Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
