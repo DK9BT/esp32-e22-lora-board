@@ -47,17 +47,4 @@ https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micr
 oder einen **Winkeladapter** verwenden:  
 https://www.amazon.de/dp/B0CRVH7JRD
 
-### Erläuterung zur USB-C Buchse:
-Das Breakout Board mit der stehenden USB-C Buchse ermöglicht ein leichtes Anstecken der externen Versorgung.  
-Es reicht sicher, dies mit einem Spiegelband aufzukleben und dann mit Drahtstückchen zu verbinden.  
-USB-C vertical breakout board https://de.aliexpress.com/item/1005007821332638.html
-
-### Ergänzung zur Frage: "PD oder nicht?"
-Für USB-C PD (Power Delivery) ist ein Kommunikations-IC an CC1 & CC2 erforderlich.  
-Wenn dieser nicht vorhanden ist, dann kann nur 5V geliefert werden und über die Widerstände an CC1 & CC2 wird der Strom "eingestellt".  
-**5k1 sind für 5V/3A**
-
-**Für USB-C Versorgung gibt es verschiedene Lösungen, die in hier aufgelistet werden ...**  
-**... stay tuned ...**
-
-***OE3WAS - Wolfgang - 15.11.2024***
+***OE3WAS - Wolfgang - 21.11.2024***
