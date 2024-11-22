@@ -9,6 +9,8 @@ if needed: E22->N Pigtail: https://www.amazon.de/dp/B0C8J131PD
 
 ESP32 Board Dev Kit C V4 https://www.amazon.de/dp/B08BTS62L7/ / https://www.amazon.de/dp/B07Z83MF5W/
 
+Adapter-Kabel zum flashen im eingebauten Zustand https://www.amazon.de/dp/B096843RY3/
+
 BME/BMP280 3,3V https://www.amazon.de/dp/B07FS95JXT/
 
 OLED-Display (VCC-GND-SCL-SDA): https://www.amazon.de/dp/B0C9LJ898Z/
