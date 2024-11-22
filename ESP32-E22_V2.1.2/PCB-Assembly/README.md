@@ -10,7 +10,7 @@ Bestückungsreihenfolge, Varianten und Inbetriebnahme des PCB V2.1.2
 * **PCB V2.1.2**
 * **U1 = ESP32-DevKitC-V4**
 * **U2 = OLED 0,96"**
-* **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm)
+* **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm) od. **E22-900M30S** (30dBm!)
 
 ### 1.2 Einbau-Varianten für U3 = E22-fffM3xS
 > [!NOTE]
@@ -181,4 +181,4 @@ ___
 * Ich weise auf die gesetzlichen Bestimmungen bez. Elektrogeräten, Funkanlagen u.ä. hin, die von jedem Anwender selber einzuhalten sind.
 
 ___
-***:copyright: 21.11.2024 by OE3WAS - Wolfgang***
+***:copyright: 22.11.2024 by OE3WAS - Wolfgang***
