@@ -1,5 +1,5 @@
-# esp32-e22-lora-board
-Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU
+# ESP32-E22-LoRa-board
+Carrier Board for LoRa Tranceiver like E22-400M33S and ESP32 MCU
 
 ### Main Parts List:
 
