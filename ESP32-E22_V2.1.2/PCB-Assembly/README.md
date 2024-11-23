@@ -4,13 +4,14 @@ Bestückungsreihenfolge, Varianten und Inbetriebnahme des PCB V2.1.2
 
 ## 1) Minimalbestückung
 * Die folgenden BT sind das absolute Minimum für die grundsätzliche Funktion.
-* Über die USB-mikro Buchse am ESP32 kann auch das E22-Modul versorgt werden, wenn eine passenden USB-Netzgerät verwendet wird, welches mind. 2A bereitstellen kann.
+* Über die USB-mikro Buchse am ESP32 kann auch das E22-Modul versorgt werden, wenn ein passendes USB-Netzgerät verwendet wird, welches mind. 2A bereitstellen kann.
 
 ### 1.1 Key-Components
 * **PCB V2.1.2**
 * **U1 = ESP32-DevKitC-V4**
 * **U2 = OLED 0,96"**
-* **U3 = EE22-400M30S** (30dBm) od. **E22-400M33S** (33dBm) od. **E22-900M30S** (30dBm!)
+* **U3 = E22-400M30S** (30dBm) od. **E22-400M33S** (33dBm) od. **E22-900M30S** (30dBm!)
+
 
 ### 1.2 Einbau-Varianten für U3 = E22-fffM3xS
 > [!NOTE]
@@ -44,11 +45,12 @@ Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch 
 > [!NOTE]
 > Die Unterschiede werden an anderer Stelle detailiert dargestellt. [!TODO]
 
-* **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden **je 2x 19-pol**:  
+* **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden, **je 2x 19-pol**:  
 <img src="..\picass\ESP32_BuLeiste.jpg" alt="ESP32_BuLeiste" width="300">  
 
 * **b)** Es können aber auch IC-Sockelstifte & Sockelbuchsen verwendet werden. Dies hat den Vorteil, dass das ESP32-Modul problemlos auf ein Steckbrett eingesteckt werden kann.  
 <img src="..\picass\ESP32_IC-Sockel.jpg" alt="ESP32_IC-Sockel" width="300">  
+
 
 ### 1.4 OLED 0,96"
 Für das OLED sind 2 Positionen 0°=Hochformat & 90°=Querformat (J11) vorgesehen, die mit **2x 4-pol Bu-Streifen** bestückt werden.  
@@ -61,15 +63,18 @@ Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte eine
 Das OLED-Board kann über eine Abstandshülse Ø4x11 mit M2 Gewindebohrung beidseits mit M2x5 Schrauben auf dem PCB mechanisch fixiert werden.  
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500"><img src="..\picass\1-4_OLEDfix.jpg" alt="OLEDfix" width="300">
 
+
 ### 1.5 User Button
 Ein Taster **SW1** ist an **GPIO12** angeschlossen. Parallel dazu kann über **J10** ein Taster extern, zB. am Gehäuse, verbunden werden.  
 Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.  
 <img src="..\picass\Button.jpg" alt="Button" width="400">
 
+
 ### 1.6 Testlauf #1
 Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
 Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
 <img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
+
 
 ### 1.7 Varianten Antenne
 * Das E22-Modul hat einen IPEX-Stecker. Hier kann eine Antenne angeschlossen werden über
@@ -78,13 +83,12 @@ Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).
   * Alternativ eine IPEX <> SMA-Einbaubuchse: ...
  
 * Beim Einbau der **SMA-Buchse J8 + R8** (0Ω=Drahtbrücke auf der Rückseite) über
-  * einen SMA-St <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden): https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
-  * [img]
+  * einen SMA-St <> N-Bu mit Flansch, aber ohne Dichtung (ev. Dichtfolie verwenden):
+https://www.reichelt.at/at/de/shop/produkt/hf_n_buchse_sma_flanschbuchse-141249
   * eine SMA-Bu <> SMA-Bu:  
 https://www.conrad.at/de/p/bkl-electronic-0409093-0409093-sma-adapter-sma-buchse-sma-buchse-1-st-457659.html
 
 Bei allen Varianten ist eine mechanische Entkopplung zwischen Antenne<>Gehäuse<>PCB gegeben.  
-[img]  
 
 
 ## 2) Spannungsversorgung
@@ -117,7 +121,7 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 ### 2.3 Versorgung über DC/DC HW-613
 > [!NOTE]
 > Funktionsbeschreibung [!TODO]
-Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des DC/DC-Wandler-Boards HW-613 (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und einstellbare variable Ausgangsspannung oder fixe durch Lötbrücken.  
+Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des DC/DC-Wandler-Boards HW-613 (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und die Ausgangsspannung kann eingestellt werden, bzw. fix durch Lötbrücken.  
 
 **D5** 1N4007 o.ä. & **C5** 100nF bestücken  
 <img src="..\picass\2-6_D5-C5.jpg" alt="D5C5" width="400">  
@@ -125,7 +129,7 @@ Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch 
 Eine 4-pol Stiftleiste auf den DC/DC-Wandler **U4 HW-613** löten.  
 <img src="..\picass\2-5_DC-DC.jpg" alt="DCDC" width="400">  
 > [!IMPORTANT]
-> Auf einem Steckbrett den DC/DC-Wandler mit dem Poti auf 5V Ausgangsspannung einstellen.
+> Auf einem Steckbrett den DC/DC-Wandler mit dem Poti auf **5,3V** Ausgangsspannung einstellen.
 
 > [!CAUTION]
 > Es ist nicht zu empfehlen, die ADJ-Leiterbahn zu unterbrechen und den 5V-Jumper zu löten, ausser man hat ein sehr gute Lupe (Mikroskop) und entsprechendes Schneidwerkzeug. Siehe https://protosupplies.com/product/mp2315-mini-adjustable-dc-dc-step-down-module/  
@@ -181,4 +185,4 @@ ___
 * Ich weise auf die gesetzlichen Bestimmungen bez. Elektrogeräten, Funkanlagen u.ä. hin, die von jedem Anwender selber einzuhalten sind.
 
 ___
-***:copyright: 22.11.2024 by OE3WAS - Wolfgang***
+***:copyright: 23.11.2024 10:10 by OE3WAS - Wolfgang***
