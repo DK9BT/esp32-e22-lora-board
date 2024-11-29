@@ -149,7 +149,8 @@ https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-
 [img 3D]
 
 ### 2.5 Versorgung über USB-C Einbaubuchse
-An die überstehende Stiftleiste J2 kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
+An die überstehende Stiftleiste **J2** kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
+[Foto !TODO]
 
 ### 2.6 Einbau in ein Gehäuse
 Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524  
