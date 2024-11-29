@@ -121,7 +121,7 @@ Die Versorgung über die USB-C-Buchse funktioniert.
 ### 2.3 Versorgung über DC/DC HW-613
 > [!NOTE]
 > Funktionsbeschreibung [!TODO]
-Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des DC/DC-Wandler-Boards HW-613 (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und die Ausgangsspannung kann eingestellt werden, bzw. fix durch Lötbrücken.  
+Bei Versorgung über ein externes Netzgerät über Schraubklemmen ist zwar auch eine Schottky-Diode erforderlich, aber bei Verwendung des **DC/DC-Wandler-Boards HW-613** (bis 1,5A) kann mit bis zu 6-24V DC versorgt werden und die Ausgangsspannung kann eingestellt werden, bzw. fix durch Lötbrücken.  
 
 **D5** 1N4007 o.ä. & **C5** 100nF bestücken  
 <img src="..\picass\2-6_D5-C5.jpg" alt="D5C5" width="400">  
@@ -143,7 +143,7 @@ Weitere BT: F1, D4
 • Die Transient Voltage Suppressor Diode **D4** (alternativ **D3**) schützt vor ESD mit einer VBR = 5,6V min. @ I=1mA
 
 ### 2.4 Versorgung über DC/DC R-78B5.0-2.0
-Statt dem günstigen DC/DC in [2.3](https://github.com/DK9BT/esp32-e22-lora-board/blob/main/ESP32-E22_V2.1.2/PCB-Assembly/README.md#23-versorgung-%C3%BCber-dcdc-hw-613) kann auch ein handeslsüblicher, aber auch teurerer Schaltregler z.B. der RECOM R-78B5.0-2.0 verwendet werden.  
+Statt dem günstigen DC/DC in [2.3](https://github.com/DK9BT/esp32-e22-lora-board/blob/main/ESP32-E22_V2.1.2/PCB-Assembly/README.md#23-versorgung-%C3%BCber-dcdc-hw-613) kann auch ein handeslsüblicher, aber auch teurerer Schaltregler z.B. der **RECOM R-78B5.0-2.0** verwendet werden.  
 https://at.rs-online.com/web/p/schaltregler/1392959  
 https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-1-st-2887420.html  
 [img 3D]
