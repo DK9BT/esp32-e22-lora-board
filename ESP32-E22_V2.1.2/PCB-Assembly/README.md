@@ -148,7 +148,10 @@ https://at.rs-online.com/web/p/schaltregler/1392959
 https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-1-st-2887420.html  
 [img 3D]
 
-### 2.5 Einbau in ein Gehäuse
+### 2.5 Versorgung über USB-C Einbaubuchse
+An die überstehende Stiftleiste J2 kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
+
+### 2.6 Einbau in ein Gehäuse
 Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524  
 Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340515  
 Gehäuse Maßzeichnung: https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf  
@@ -168,7 +171,7 @@ oder https://www.amazon.de/dp/B088QJG676
 
 Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.  
 
-### 2.6 Programmierkabel für ESP32
+### 2.7 Programmierkabel für ESP32
 Dieses könnte wegen der nur 20cm im Gehäuse verbleiben:  
 https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766  
 oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH7JRD  
