@@ -2,7 +2,9 @@
 
 Bestückungsreihenfolge, Varianten und Inbetriebnahme des PCB V2.1.2  
 
-Fertig bestückte Varianten sind hier zu finden  
+Bilder zum fertigen Gerät sind hier zu finden:  
+https://github.com/DK9BT/esp32-e22-lora-board/tree/main/ESP32-E22_V2.1.2/pdf  
+Fertig bestückte Varianten sind hier zu finden:  
 https://github.com/DK9BT/esp32-e22-lora-board/tree/main/gallery
 
 ## 1) Minimalbestückung
@@ -155,7 +157,22 @@ https://www.conrad.at/de/p/recom-r-78k5-0-2-0-dc-dc-wandler-5-v-2-a-10-w-inhalt-
 An die überstehende Stiftleiste **J2** kann eine USB-C Einbaubuchse mit Kabel angesteckt werden.  
 [Foto !TODO]
 
-### 2.6 Einbau in ein Gehäuse
+### 2.6 weiter Versorgungsmöglichkeiten (Rohfassung aus Telegram)
+
+❗️Ich habe viele Möglichkeiten vorgesehen. Man kann einiges weglassen, wenn man weiß, was man tut. Aber man sollte auch die Schaltung verstehen.  
+1️⃣ Schraubklemme kann verwendet werden, auch ohne DC/DC. Drahtbrücke einbauen.  
+2️⃣ Sicherung F1 & Diode D5 müssen nicht verwendet werden, können aber.  
+3️⃣ Auf die Stiftleiste J2 kann eine USB-C Einbaubuchse angesteckt werden.
+
+• z.B. die **6-polige (VCC GND CC1 CC2 D+ D-)**, wobei ich aber noch keine genaue Belegung dazu gefunden habe.  
+![grafik](https://github.com/user-attachments/assets/08eb172e-57cc-41c8-8fe8-ef4e5793bd70)
+
+• es kann auch sein, dass die **5-polige (VCC GND CC D+ D-)** funktioniert. Davon habe ich eine Belegung gefunden. Wahrscheinlich gemeinsames CC, also CC1-CC2 verbunden, was aber zu dem bekannten RPi-Problem führt.
+![grafik](https://github.com/user-attachments/assets/94f0b265-03a1-4e12-a55f-887df2e7f4ef)
+
+❌ Die **2-poligen (nur VCC & GND)** und die **4-poligen (VCC & GND & D- & D+)** funktionieren aber definitiv NICHT, da die CC1 & CC2 Anschlüsse fehlen und daher von dem USB-C Netzteil nur 5V/500mA bereitgestellt werden darf, außer ev. Ausnahmen, wenn man "dumme" Netzteile u/o "dumme" USB-C Anschlusskabel verwendet.
+
+## 3) Einbau in ein Gehäuse
 Enclosure (transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340524  
 Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industriegehaeuse_120_x_80_x_60_2mm_ip65_lichtgrau-340515  
 Gehäuse Maßzeichnung: https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf  
@@ -175,12 +192,23 @@ oder https://www.amazon.de/dp/B088QJG676
 
 Je nach Aufstellungsort kann auch eine einfache ≈Ø2mm Bohrung zum Druckausgleich ausreichen.  
 
-### 2.7 Programmierkabel für ESP32
+### 3.1 Programmierkabel für ESP32
 Dieses könnte wegen der nur 20cm im Gehäuse verbleiben:  
 https://www.reichelt.at/at/de/shop/produkt/dual_easy_usb_2_0_kabel_a_st_auf_micro_b_st_gew_0_2_m-287766  
 oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH7JRD  
 
+## 4) Sensoren
+### 4.1 GPS
+GPS wird hier am **J4** angesteckt. Für die GPS-Antenne ist "rechts oben" neben der SMA-Buchse die Platine ausgespart. Da ist Platz im Gehäuse, die Antenne parallel zur Seitenwand anzubringen.  
+![grafik](https://github.com/user-attachments/assets/b9b916f5-f78e-4e71-90ba-b850e32d79fc)
 
+### 4.2 BME/BMP 280
+Hier ist **J6** vorgesehen
+
+### 4.3 INA226
+Hier ist **J7** vorgesehen. ❗ versetzt an 5-pol J7 anstecken. Die Bohrung oberhalb ist für mechanische Befestigung des Boards gedacht.
+
+___
 ## 98) weitere Hinweise
 * **C2** ist bei Verwendung des **ESP32-DevKitC-V4** nicht erforderlich. Die Anschlüsse können für einen externen Reset-Taster verwendet werden.
 
