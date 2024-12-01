@@ -203,10 +203,17 @@ GPS wird hier am **J4** angesteckt. Für die GPS-Antenne ist "rechts oben" neben
 ![grafik](https://github.com/user-attachments/assets/b9b916f5-f78e-4e71-90ba-b850e32d79fc)
 
 ### 4.2 BME/BMP 280
-Hier ist **J6** vorgesehen
+Hier ist **J6** vorgesehen.  
+Sensor **BME280 Board 10,5 x 13,2 mm**
+- Ein  **BME280** hat ein fast quadratisches Gehäuse mit Luftloch in der Mitte. (Im Gegensatz zu einem **BMP280**, der ein rechteckiges Gehäuse mit Luftloch in einer Ecke hat.)
+- Da der Chip von 1,8 .. 3,3V (4,25V max.) funktioniert und - wie ersichtlich - ein LDO + Level-Shifter auf der Rückseite sind, sind diese Ausführungen für 3,3V und auch 5V geeignet.
+- im linken Bild oberhalb der Beschriftung sind 3 Pads: hier kann die I²C-Adresse auf 0x77 geändert werden, wenn das mittlere Pad mit dem linken - offenbar GND - verbunden wird. Wenn nach VDD (rechts) oder offen, dann std. 0x76.
+- Ein **BME280** misst **interne Chip-Temperatur, Druck und Luftfeuchtigkeit**.  
+![grafik](https://github.com/user-attachments/assets/b32106f3-e574-455c-a79a-5e3cc6893eeb) ![grafik](https://github.com/user-attachments/assets/f917bf5e-f0ee-4cfd-9ea2-f3ee23d2fe04)
 
 ### 4.3 INA226
-Hier ist **J7** vorgesehen. ❗ versetzt an 5-pol J7 anstecken. Die Bohrung oberhalb ist für mechanische Befestigung des Boards gedacht.
+Hier ist **J7** vorgesehen. ❗ versetzt an 5-pol J7 anstecken. Die Bohrung oberhalb ist für mechanische Befestigung des Boards gedacht, wenn das Board horizontal eingebaut wird.  
+![grafik](https://github.com/user-attachments/assets/49c4898f-19d3-439e-a114-c799aea21c48)
 
 ___
 ## 98) weitere Hinweise
