@@ -2,6 +2,9 @@
 
 Bestückungsreihenfolge, Varianten und Inbetriebnahme des PCB V2.1.2  
 
+Fertig bestückte Varianten sind hier zu finden  
+https://github.com/DK9BT/esp32-e22-lora-board/tree/main/gallery
+
 ## 1) Minimalbestückung
 * Die folgenden BT sind das absolute Minimum für die grundsätzliche Funktion.
 * Über die USB-mikro Buchse am ESP32 kann auch das E22-Modul versorgt werden, wenn ein passendes USB-Netzgerät verwendet wird, welches mind. 2A bereitstellen kann.
