@@ -3,6 +3,14 @@ Carrier Board for Lora Tranceiver like E22-400M33S and ESP32 MCU
 
 V 2.1.x  Variante einseitig bestückt / Variant equipped on one side
 
+**obsolet - siehe ESP32-E22_V2.1.2**
+
+
+
+
+
+
+
 
 ### additional special components
 
@@ -12,8 +20,3 @@ Enclosure (non-transparent) https://www.reichelt.de/de/de/shop/produkt/industrie
 
 Gehäuse Maßzeichnung:
 https://cdn-reichelt.de/documents/datenblatt/C700/6U07120806437_6U-120806_DB.pdf
-
-USB-C vertical breakout board https://de.aliexpress.com/item/1005007821332638.html  
-USB-C Gehäusebuchse https://de.aliexpress.com/item/1005005388486563.html
-
-**obsolet - siehe ESP32-E22_V2.1.2**
