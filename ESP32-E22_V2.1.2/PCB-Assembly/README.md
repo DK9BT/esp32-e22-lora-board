@@ -222,7 +222,7 @@ ___
 ## 98) weitere Hinweise
 * **C2** ist bei Verwendung des **ESP32-DevKitC-V4** nicht erforderlich. Die Anschlüsse können für einen externen Reset-Taster verwendet werden.
 * **R1, R2, C1, J1** nur dann bestücken, wenn man eine Spannung messen will. Hierfür sind die Widerstände, dh. der Spannungsteiler,
- so zu wählen, dass die Spannung am ADC-Eingang des ESP32 max. 3,2V erreichen.
+ so zu wählen, dass die Spannung am ADC-Eingang des ESP32 max. 3,2V erreicht.
 
 ___
 # 99) Allgemeine Hinweise
