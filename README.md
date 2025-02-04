@@ -25,7 +25,4 @@ Reichelt: https://www.reichelt.de/my/2192127
 **V 2.1.2  PCB** für Querformat im Gehäuse für Aussenmontage - alle Anschlüsse auf der Unterseite des Gehäuses  
 oder PCB vertikale Einbau
 
-**Vorversionen:**  
-V 1.x    OE5HWN Versionen  
-V 2.1.0  OE3WAS beta-Version (Order Link: https://aisler.net/p/LMKJXZAY)
 ___
