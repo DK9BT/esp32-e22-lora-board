@@ -233,4 +233,4 @@ ___
 * Ich weise auf die gesetzlichen Bestimmungen bez. Elektrogeräten, Funkanlagen u.ä. hin, die von jedem Anwender selber einzuhalten sind.
 
 ___
-***:copyright: 23.11.2024 10:10 by OE3WAS - Wolfgang***
+***:copyright: 4.2.2025 10:10 by OE3WAS - Wolfgang***
