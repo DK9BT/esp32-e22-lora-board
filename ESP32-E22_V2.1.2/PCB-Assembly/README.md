@@ -48,7 +48,7 @@ In einer späteren Version wird es eine Sockeladapterplatine geben und eine modi
 ### 1.3 Einbau-Varianten für U1 = ESP32-DevKitC V4
 Die **V4** ist die derzeit neueste Version. Es können aber grundsätzlich auch die **V1**- od. **V4**-Module verwendet werden.  
 > [!NOTE]
-> Die Unterschiede werden an anderer Stelle detailiert dargestellt. [!TODO]
+> Die Unterschiede werden an anderer Stelle detailliert dargestellt. [!TODO]
 
 * **a)** Normalerweise verwendet man eine Pfosten-Steckverbindung, wobei die Buchsenleisten in das PCB eingelötet sind und die Pfostenstecker sich am ESP32-Modul befinden, **je 2x 19-pol**:  
 <img src="..\picass\ESP32_BuLeiste.jpg" alt="ESP32_BuLeiste" width="300">  
@@ -63,7 +63,7 @@ Die OLED gibt es in grundsätzlich 2 verschiedenen Pin-Anordnungen. Die angegebe
 Bei manchen OLEDs (rechts im Bild) kann man noch die **I²C**-Adresse von **`0x78`** auf **`0x7A`** ändern.  
 Mit einem I²C-Scanner werden **`0x78` >> `0x3C`** und **`0x7A` >> `0x3D`** erkannt (7-Bit Format).  
 Zusätzlich können auf manchen Modulen direkt die **VCC<>GND** durch die **J1/J2/J3/J4** im Foto rechts vertauscht werden.  
-Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).
+Das linke OLED verwendet einen **SH1106**-Driver (132x64 pixel), das rechte einen **SSD1306**-Driver (128x64 pixel).  
 <img src="..\picass\OLED_SH1106-SSD1306.jpg" alt="OLED_SH1106-SSD1306" width="600">  
 Das OLED-Board kann über eine Abstandshülse Ø4x11 mit M2 Gewindebohrung beidseits mit M2x5 Schrauben auf dem PCB mechanisch fixiert werden.  
 <img src="..\picass\U1+U2+C3+C4.jpg" alt="U1+U2+C3+C4" width="500"><img src="..\picass\1-4_OLEDfix.jpg" alt="OLEDfix" width="300">
