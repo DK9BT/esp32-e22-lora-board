@@ -76,7 +76,7 @@ Für **MeshCom** muss er erstmalig mit **`--button on`** aktiviert werden.
 
 
 ### 1.6 Testlauf #1
-Beim Online-Flash Tool https://oe1kfr.com/esptool/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
+Beim Online-Flash Tool https://esptool.oevsv.at/ ist **E22** auszuwählen. (Hat auch eine Console. Chromium Browsers only!)  
 Und läuft grundsätzlich, mit Minimalbestückung und auch ohne HF (E22).  
 <img src="..\picass\Testlauf_1.jpg" alt="Testlauf1" width="500">
 
