@@ -99,7 +99,7 @@ Bei allen Varianten ist eine mechanische Entkopplung zwischen Antenne<>Gehäuse<
 ## 2) Spannungsversorgung
 Für die Spannungsversorgung stehen mehrere Möglichkeiten zur Verfügung.  
 ### ❗ 🟡 Extrem wichtig ist aber, dass die 2x 470µF Elkos und alle 100nF KerKos bestückt sind, und dass ein Netzgerät mit ausreichender Stromergiebigkeit verwendet wird! Bei hochwertigen Netzteilen sollten 2A reichen, das die Stromspitzen auch wegpuffern kann. Besser sind Netzteile mit 3A nominell, wie sie z.B. auch für RaspberryPi verwendet werden. Und möglichst kurze und niederohmige Verbindungsleitung zwischen Netzgerät und PCB.
-### ❗ 🟡 Ebenso sollte C2 10µF NICHT bestückt werden, bei Verwendung des ESP32-DvKitC-V4 Moduls!
+### ❗ 🟡 Ebenso sollte C2 10µF NICHT bestückt werden, bei Verwendung des ESP32-DevKitC-V4 Moduls!
 
 ### 2.1 USB-Micro via ESP32
 Die Spannungsversorgung kann über die USB-Mikro-Buchse des ESP32-Moduls erfolgen, wenn ein geeignetes USB-Netzteil verwendet wird, welches bis zu 3A liefern kann. Mindestens jedoch 2,5A. Solche Netzteile werden z.B. auch für die Versorgung von RapberryPi u.a. verwendet.  
