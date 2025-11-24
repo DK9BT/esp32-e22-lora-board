@@ -205,7 +205,13 @@ GPS wird hier am **J4** angesteckt. Für die GPS-Antenne ist "rechts oben" neben
 Hierfür wurde von **DF2PI** ein 3D-Druckteil entworfen:  
 https://www.printables.com/model/1135886-montagebrucke-interne-gps-antenne-gps-board-fur-me  
 
-![grafik](https://github.com/user-attachments/assets/b9b916f5-f78e-4e71-90ba-b850e32d79fc)
+<img width="500" alt="grafik" src="https://github.com/user-attachments/assets/b9b916f5-f78e-4e71-90ba-b850e32d79fc" />
+
+<img width="458" height="202" alt="grafik" src="https://github.com/user-attachments/assets/87d3013c-169f-4f99-9254-32410e30b864" />
+
+In der `configuration.h`  
+`#define GPS_RX_PIN 16` **<= TX am GPS-Modul**  
+`#define GPS_TX_PIN 17` **=> RX am GPS-Modul**
 
 ### 4.2 BME/BMP 280
 Hier ist **J6** vorgesehen.  
