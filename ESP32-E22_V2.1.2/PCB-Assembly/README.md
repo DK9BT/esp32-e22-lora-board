@@ -202,7 +202,7 @@ oder es kann ein Winkeladapter verwenden werden: https://www.amazon.de/dp/B0CRVH
 ## 4) Sensoren
 ### 4.1 GPS
 GPS wird hier am **J4** angesteckt. Für die GPS-Antenne ist "rechts oben" neben der SMA-Buchse die Platine ausgespart. Da ist Platz im Gehäuse, die Antenne parallel zur Seitenwand anzubringen.  
-Hierfür wirde von **DF2PI** ein 3D-Druckteil entworfen:  
+Hierfür wurde von **DF2PI** ein 3D-Druckteil entworfen:  
 https://www.printables.com/model/1135886-montagebrucke-interne-gps-antenne-gps-board-fur-me  
 
 ![grafik](https://github.com/user-attachments/assets/b9b916f5-f78e-4e71-90ba-b850e32d79fc)
